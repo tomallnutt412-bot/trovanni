@@ -3,5 +3,6 @@
 {
   "name": "trovanni",
   "compatibility_date": "2026-04-01",
-  "assets": { "directory": "." }
+  "assets": { "directory": "." },
+  "previews": {}
 }
