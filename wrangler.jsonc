@@ -1,0 +1,7 @@
+// BRANCH-ONLY experiment (engagement-rings): minimal static-assets Worker config so branch builds can run
+// without a dashboard build command. Review with Tom before any merge: main currently deploys without this file.
+{
+  "name": "trovanni",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "." }
+}

@@ -3,3 +3,5 @@
 cf-build.sh
 .git
 .github
+wrangler.jsonc
+node_modules

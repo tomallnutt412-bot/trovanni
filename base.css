@@ -62,3 +62,4 @@ form.f input,form.f textarea{display:block;width:100%;padding:10px;margin:6px 0 
 .card .cimg::before,.card .cimg::after{display:none!important;content:none!important}
 .btable td:nth-child(3){white-space:nowrap}
 @media (max-width:520px){.btable td:first-child{font-size:.9rem}.btable input.qty{width:3.2rem}}
+.imgpend{display:block;font-style:italic;opacity:.8}

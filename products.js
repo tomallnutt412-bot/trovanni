@@ -124,6 +124,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "gold",
 "metal_family_label": "Yellow gold",
 "purchasable": true,
@@ -253,6 +254,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "silver",
 "metal_family_label": "Silver",
 "purchasable": true,
@@ -382,6 +384,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "platinum",
 "metal_family_label": "Platinum",
 "purchasable": false,
@@ -536,6 +539,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "gold_plated",
 "metal_family_label": "Gold-plated",
 "purchasable": true,
@@ -688,6 +692,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "silver",
 "metal_family_label": "Silver",
 "purchasable": true,
@@ -840,6 +845,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "gold",
 "metal_family_label": "Yellow gold",
 "purchasable": true,
@@ -956,6 +962,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "silver",
 "metal_family_label": "Silver",
 "purchasable": false,
@@ -1072,6 +1079,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "gold",
 "metal_family_label": "Rose gold",
 "purchasable": true,
@@ -1190,6 +1198,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "platinum",
 "metal_family_label": "Platinum",
 "purchasable": true,
@@ -1312,6 +1321,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "silver",
 "metal_family_label": "Silver",
 "purchasable": true,
@@ -1434,6 +1444,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "gold",
 "metal_family_label": "Yellow gold",
 "purchasable": true,
@@ -1543,6 +1554,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "platinum",
 "metal_family_label": "Platinum",
 "purchasable": true,
@@ -1652,6 +1664,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "gold",
 "metal_family_label": "White gold",
 "purchasable": false,
@@ -1761,6 +1774,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "silver",
 "metal_family_label": "Silver",
 "purchasable": true,
@@ -1888,6 +1902,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "gold",
 "metal_family_label": "Yellow gold",
 "purchasable": true,
@@ -2021,6 +2036,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "white_metal_untested",
 "metal_family_label": "White metal (untested)",
 "purchasable": true,
@@ -2123,6 +2139,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "silver",
 "metal_family_label": "Silver",
 "purchasable": true,
@@ -2227,6 +2244,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "gold_plated",
 "metal_family_label": "Gold-plated",
 "purchasable": true,
@@ -2336,6 +2354,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "gold",
 "metal_family_label": "Yellow gold",
 "purchasable": true,
@@ -2447,6 +2466,7 @@ window.PRODUCTS=[
 "engagement": false,
 "configurable": false,
 "price_unapproved": false,
+"image_pending": false,
 "metal_group": "silver_plated",
 "metal_family_label": "Silver-plated",
 "purchasable": true,
@@ -2463,7 +2483,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Oval Solitaire – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Oval Solitaire Engagement Ring | Trovanni",
-"meta_description": "The Oval Solitaire: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Oval Solitaire: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £245."
 },
 "slug": "oval-solitaire-engagement-ring",
 "story": "A classic four-claw oval solitaire on a slim, polished band.",
@@ -2471,16 +2491,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 895,
+"gbp": 245,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -2490,7 +2510,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-001-01-front.jpg",
 "type": "front",
-"alt": "The Oval Solitaire in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Oval Solitaire, front view",
 "order": 1,
 "exists": true
 }
@@ -2498,17 +2518,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Oval Solitaire: a classic four-claw oval solitaire on a slim, polished band. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Oval Solitaire: a classic four-claw oval solitaire on a slim, polished band. From £245 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £595 in sterling silver, or £895 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 895,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -2715,8 +2735,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -2781,13 +2800,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -2804,8 +2823,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": true,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -2820,7 +2840,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Radiant Solitaire – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Radiant Solitaire Engagement Ring | Trovanni",
-"meta_description": "The Radiant Solitaire: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Radiant Solitaire: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £245."
 },
 "slug": "radiant-solitaire-engagement-ring",
 "story": "A crisp radiant-cut solitaire held in four claws on a fine band.",
@@ -2828,16 +2848,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 895,
+"gbp": 245,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -2847,7 +2867,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-002-01-front.jpg",
 "type": "front",
-"alt": "The Radiant Solitaire in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Radiant Solitaire, front view",
 "order": 1,
 "exists": true
 }
@@ -2855,17 +2875,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Radiant Solitaire: a crisp radiant-cut solitaire held in four claws on a fine band. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Radiant Solitaire: a crisp radiant-cut solitaire held in four claws on a fine band. From £245 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £595 in sterling silver, or £895 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 895,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -3072,8 +3092,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -3138,13 +3157,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -3161,8 +3180,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -3177,24 +3197,24 @@ window.PRODUCTS=[
 "title": {
 "website": "The Emerald-Cut Solitaire – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Emerald-Cut Solitaire Engagement Ring | Trovanni",
-"meta_description": "The Emerald-Cut Solitaire: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Emerald-Cut Solitaire: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £245."
 },
-"slug": "emerald-cut-solitaire-engagement-ring",
+"slug": "emeraldcut-solitaire-engagement-ring",
 "story": "An emerald-cut solitaire with long step-cut facets, four claws, slim band.",
 "condition": {
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 895,
+"gbp": 245,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -3204,7 +3224,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-003-01-front.jpg",
 "type": "front",
-"alt": "The Emerald-Cut Solitaire in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Emerald-Cut Solitaire, front view",
 "order": 1,
 "exists": true
 }
@@ -3212,17 +3232,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Emerald-Cut Solitaire: an emerald-cut solitaire with long step-cut facets, four claws, slim band. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Emerald-Cut Solitaire: an emerald-cut solitaire with long step-cut facets, four claws, slim band. From £245 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £595 in sterling silver, or £895 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 895,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -3429,8 +3449,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -3495,13 +3514,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -3518,8 +3537,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -3534,7 +3554,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Oval Bezel – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Oval Bezel Engagement Ring | Trovanni",
-"meta_description": "The Oval Bezel: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Oval Bezel: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £275."
 },
 "slug": "oval-bezel-engagement-ring",
 "story": "An oval stone wrapped in a smooth, full bezel – low, snag-free and made for everyday wear.",
@@ -3542,16 +3562,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 925,
+"gbp": 275,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -3561,7 +3581,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-004-01-front.jpg",
 "type": "front",
-"alt": "The Oval Bezel in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Oval Bezel, front view",
 "order": 1,
 "exists": true
 }
@@ -3569,17 +3589,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Oval Bezel: an oval stone wrapped in a smooth, full bezel – low, snag-free and made for everyday wear. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Oval Bezel: an oval stone wrapped in a smooth, full bezel – low, snag-free and made for everyday wear. From £275 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £625 in sterling silver, or £925 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 925,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -3786,8 +3806,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -3852,13 +3871,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -3875,8 +3894,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": true,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -3891,7 +3911,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Oval Pavé – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Oval Pavé Engagement Ring | Trovanni",
-"meta_description": "The Oval Pavé: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Oval Pavé: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £395."
 },
 "slug": "oval-pave-engagement-ring",
 "story": "An oval solitaire on a band of tiny pavé-set accent stones.",
@@ -3899,16 +3919,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1045,
+"gbp": 395,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -3918,7 +3938,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-005-01-front.jpg",
 "type": "front",
-"alt": "The Oval Pavé in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Oval Pavé, front view",
 "order": 1,
 "exists": true
 }
@@ -3926,17 +3946,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Oval Pavé: an oval solitaire on a band of tiny pavé-set accent stones. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Oval Pavé: an oval solitaire on a band of tiny pavé-set accent stones. From £395 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £745 in sterling silver, or £1,045 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1045,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -4143,8 +4163,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -4209,13 +4228,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -4232,8 +4251,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": true,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -4248,7 +4268,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Hidden Halo Oval – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Hidden Halo Oval Engagement Ring | Trovanni",
-"meta_description": "The Hidden Halo Oval: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Hidden Halo Oval: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £345."
 },
 "slug": "hidden-halo-oval-engagement-ring",
 "story": "An oval solitaire with a hidden halo of tiny stones beneath the centre, only seen from the side.",
@@ -4256,16 +4276,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 995,
+"gbp": 345,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -4275,14 +4295,14 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-006-01-front.jpg",
 "type": "front",
-"alt": "The Hidden Halo Oval in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Hidden Halo Oval, front view",
 "order": 1,
 "exists": true
 },
 {
 "src": "trv-lg-006-02-side.jpg",
 "type": "side",
-"alt": "The Hidden Halo Oval in 9ct yellow gold, side view (supplier catalogue image)",
+"alt": "The Hidden Halo Oval, side view",
 "order": 2,
 "exists": true
 }
@@ -4290,17 +4310,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Hidden Halo Oval: an oval solitaire with a hidden halo of tiny stones beneath the centre, only seen from the side. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Hidden Halo Oval: an oval solitaire with a hidden halo of tiny stones beneath the centre, only seen from the side. From £345 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £695 in sterling silver, or £995 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 995,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -4507,8 +4527,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -4573,13 +4592,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -4596,8 +4615,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -4612,7 +4632,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Oval Trilogy with Pear Sides – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Oval Trilogy with Pear Sides Engagement Ring | Trovanni",
-"meta_description": "The Oval Trilogy with Pear Sides: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Oval Trilogy with Pear Sides: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £545."
 },
 "slug": "oval-trilogy-with-pear-sides-engagement-ring",
 "story": "An oval centre flanked by two pear-shaped side stones – a three-stone ring with a soft, tapering outline.",
@@ -4620,16 +4640,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1195,
+"gbp": 545,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -4639,7 +4659,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-007-01-front.jpg",
 "type": "front",
-"alt": "The Oval Trilogy with Pear Sides in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Oval Trilogy with Pear Sides, front view",
 "order": 1,
 "exists": true
 }
@@ -4647,17 +4667,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Oval Trilogy with Pear Sides: an oval centre flanked by two pear-shaped side stones – a three-stone ring with a soft, tapering outline. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Oval Trilogy with Pear Sides: an oval centre flanked by two pear-shaped side stones – a three-stone ring with a soft, tapering outline. From £545 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £895 in sterling silver, or £1,195 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1195,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -4864,8 +4884,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -4930,13 +4949,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -4953,8 +4972,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": true,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -4969,7 +4989,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Toi et Moi – Emerald & Pear – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Toi et Moi – Emerald & Pear Engagement Ring | Trovanni",
-"meta_description": "The Toi et Moi – Emerald & Pear: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Toi et Moi – Emerald & Pear: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £645."
 },
 "slug": "toi-et-moi-emerald-and-pear-engagement-ring",
 "story": "Two stones side by side – an emerald cut and a pear – in a toi et moi ('you and me') setting.",
@@ -4977,16 +4997,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1295,
+"gbp": 645,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -4996,7 +5016,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-008-01-front.jpg",
 "type": "front",
-"alt": "The Toi et Moi – Emerald & Pear in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Toi et Moi – Emerald & Pear, front view",
 "order": 1,
 "exists": true
 }
@@ -5004,17 +5024,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Toi et Moi – Emerald & Pear: two stones side by side – an emerald cut and a pear – in a toi et moi ('you and me') setting. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Toi et Moi – Emerald & Pear: two stones side by side – an emerald cut and a pear – in a toi et moi ('you and me') setting. From £645 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £995 in sterling silver, or £1,295 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1295,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -5221,8 +5241,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -5287,13 +5306,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -5310,8 +5329,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -5326,7 +5346,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Oval with Floating Stones – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Oval with Floating Stones Engagement Ring | Trovanni",
-"meta_description": "The Oval with Floating Stones: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Oval with Floating Stones: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £395."
 },
 "slug": "oval-with-floating-stones-engagement-ring",
 "story": "An oval solitaire on a band dotted with spaced, floating accent stones.",
@@ -5334,16 +5354,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1045,
+"gbp": 395,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -5353,7 +5373,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-009-01-front.jpg",
 "type": "front",
-"alt": "The Oval with Floating Stones in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Oval with Floating Stones, front view",
 "order": 1,
 "exists": true
 }
@@ -5361,17 +5381,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Oval with Floating Stones: an oval solitaire on a band dotted with spaced, floating accent stones. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Oval with Floating Stones: an oval solitaire on a band dotted with spaced, floating accent stones. From £395 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £745 in sterling silver, or £1,045 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1045,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -5578,8 +5598,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -5644,13 +5663,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -5667,8 +5686,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": true,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -5683,24 +5703,24 @@ window.PRODUCTS=[
 "title": {
 "website": "The East-West Sculpted Oval – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The East-West Sculpted Oval Engagement Ring | Trovanni",
-"meta_description": "The East-West Sculpted Oval: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "East-West Sculpted Oval: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £345."
 },
-"slug": "east-west-sculpted-oval-engagement-ring",
+"slug": "eastwest-sculpted-oval-engagement-ring",
 "story": "An oval set sideways (east-west) in a bold, sculpted band that sweeps around the stone.",
 "condition": {
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 995,
+"gbp": 345,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -5710,21 +5730,21 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-010-01-front.jpg",
 "type": "front",
-"alt": "The East-West Sculpted Oval in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The East-West Sculpted Oval, front view",
 "order": 1,
 "exists": true
 },
 {
 "src": "trv-lg-010-02-side.jpg",
 "type": "side",
-"alt": "The East-West Sculpted Oval in 9ct yellow gold, side view (supplier catalogue image)",
+"alt": "The East-West Sculpted Oval, side view",
 "order": 2,
 "exists": true
 },
 {
 "src": "trv-lg-010-03-back.jpg",
 "type": "back",
-"alt": "The East-West Sculpted Oval in 9ct yellow gold, back view (supplier catalogue image)",
+"alt": "The East-West Sculpted Oval, back view",
 "order": 3,
 "exists": true
 }
@@ -5732,17 +5752,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The East-West Sculpted Oval: an oval set sideways (east-west) in a bold, sculpted band that sweeps around the stone. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The East-West Sculpted Oval: an oval set sideways (east-west) in a bold, sculpted band that sweeps around the stone. From £345 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £695 in sterling silver, or £995 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 995,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -5949,8 +5969,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -6015,13 +6034,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -6038,8 +6057,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -6054,7 +6074,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Pear Trilogy – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Pear Trilogy Engagement Ring | Trovanni",
-"meta_description": "The Pear Trilogy: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Pear Trilogy: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £545."
 },
 "slug": "pear-trilogy-engagement-ring",
 "story": "A pear-shaped centre stone between two smaller pear side stones.",
@@ -6062,16 +6082,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1195,
+"gbp": 545,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -6081,7 +6101,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-011-01-front.jpg",
 "type": "front",
-"alt": "The Pear Trilogy in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Pear Trilogy, front view",
 "order": 1,
 "exists": true
 }
@@ -6089,17 +6109,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Pear Trilogy: a pear-shaped centre stone between two smaller pear side stones. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Pear Trilogy: a pear-shaped centre stone between two smaller pear side stones. From £545 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £895 in sterling silver, or £1,195 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1195,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -6306,8 +6326,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -6372,13 +6391,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -6395,8 +6414,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": true,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -6411,7 +6431,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Twisted Pavé Oval – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Twisted Pavé Oval Engagement Ring | Trovanni",
-"meta_description": "The Twisted Pavé Oval: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Twisted Pavé Oval: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £445."
 },
 "slug": "twisted-pave-oval-engagement-ring",
 "story": "An oval solitaire on a twisted band, one strand set with tiny pavé stones.",
@@ -6419,16 +6439,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1095,
+"gbp": 445,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -6438,7 +6458,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-012-01-front.jpg",
 "type": "front",
-"alt": "The Twisted Pavé Oval in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Twisted Pavé Oval, front view",
 "order": 1,
 "exists": true
 }
@@ -6446,17 +6466,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Twisted Pavé Oval: an oval solitaire on a twisted band, one strand set with tiny pavé stones. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Twisted Pavé Oval: an oval solitaire on a twisted band, one strand set with tiny pavé stones. From £445 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £795 in sterling silver, or £1,095 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1095,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -6663,8 +6683,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -6729,13 +6748,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -6752,8 +6771,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": true,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -6768,7 +6788,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Pear Bridal Set – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Pear Bridal Set Engagement Ring | Trovanni",
-"meta_description": "The Pear Bridal Set: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Pear Bridal Set: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £745."
 },
 "slug": "pear-bridal-set-engagement-ring",
 "story": "A pear solitaire paired with a curved, stone-set wedding band that sits flush beneath it.",
@@ -6776,16 +6796,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1395,
+"gbp": 745,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -6795,7 +6815,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-013-01-front.jpg",
 "type": "front",
-"alt": "The Pear Bridal Set in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Pear Bridal Set, front view",
 "order": 1,
 "exists": true
 }
@@ -6803,17 +6823,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Pear Bridal Set: a pear solitaire paired with a curved, stone-set wedding band that sits flush beneath it. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Pear Bridal Set: a pear solitaire paired with a curved, stone-set wedding band that sits flush beneath it. From £745 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £1,095 in sterling silver, or £1,395 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1395,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -7020,8 +7040,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -7086,13 +7105,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -7109,8 +7128,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": true,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -7125,7 +7145,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Toi et Moi – Heart & Pear – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Toi et Moi – Heart & Pear Engagement Ring | Trovanni",
-"meta_description": "The Toi et Moi – Heart & Pear: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Toi et Moi – Heart & Pear: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £645."
 },
 "slug": "toi-et-moi-heart-and-pear-engagement-ring",
 "story": "A heart and a pear set side by side in a toi et moi ('you and me') ring.",
@@ -7133,16 +7153,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1295,
+"gbp": 645,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -7152,7 +7172,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-014-01-front.jpg",
 "type": "front",
-"alt": "The Toi et Moi – Heart & Pear in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Toi et Moi – Heart & Pear, front view",
 "order": 1,
 "exists": true
 }
@@ -7160,17 +7180,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Toi et Moi – Heart & Pear: a heart and a pear set side by side in a toi et moi ('you and me') ring. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Toi et Moi – Heart & Pear: a heart and a pear set side by side in a toi et moi ('you and me') ring. From £645 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £995 in sterling silver, or £1,295 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1295,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -7377,8 +7397,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -7443,13 +7462,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -7466,8 +7485,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -7482,7 +7502,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Oval Dome – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Oval Dome Engagement Ring | Trovanni",
-"meta_description": "The Oval Dome: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Oval Dome: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £395."
 },
 "slug": "oval-dome-engagement-ring",
 "story": "An east-west oval sunk into a smooth, high-polish dome band – bold, low and snag-free.",
@@ -7490,16 +7510,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1045,
+"gbp": 395,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -7509,7 +7529,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-015-01-front.jpg",
 "type": "front",
-"alt": "The Oval Dome in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Oval Dome, front view",
 "order": 1,
 "exists": true
 }
@@ -7517,17 +7537,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Oval Dome: an east-west oval sunk into a smooth, high-polish dome band – bold, low and snag-free. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Oval Dome: an east-west oval sunk into a smooth, high-polish dome band – bold, low and snag-free. From £395 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £745 in sterling silver, or £1,045 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1045,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -7734,8 +7754,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -7800,13 +7819,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -7823,8 +7842,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -7839,24 +7859,24 @@ window.PRODUCTS=[
 "title": {
 "website": "The East-West Sculpted Emerald – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The East-West Sculpted Emerald Engagement Ring | Trovanni",
-"meta_description": "The East-West Sculpted Emerald: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "East-West Sculpted Emerald: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £345."
 },
-"slug": "east-west-sculpted-emerald-engagement-ring",
+"slug": "eastwest-sculpted-emerald-engagement-ring",
 "story": "An emerald cut laid sideways in a sculpted band that sweeps up around the stone.",
 "condition": {
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 995,
+"gbp": 345,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -7866,7 +7886,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-016-01-front.jpg",
 "type": "front",
-"alt": "The East-West Sculpted Emerald in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The East-West Sculpted Emerald, front view",
 "order": 1,
 "exists": true
 }
@@ -7874,17 +7894,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The East-West Sculpted Emerald: an emerald cut laid sideways in a sculpted band that sweeps up around the stone. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The East-West Sculpted Emerald: an emerald cut laid sideways in a sculpted band that sweeps up around the stone. From £345 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £695 in sterling silver, or £995 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 995,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -8091,8 +8111,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -8157,13 +8176,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -8180,8 +8199,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -8196,7 +8216,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Wide Baguette Band – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Wide Baguette Band Engagement Ring | Trovanni",
-"meta_description": "The Wide Baguette Band: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Wide Baguette Band: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £495."
 },
 "slug": "wide-baguette-band-engagement-ring",
 "story": "A long step-cut stone set flush across a wide, flat-edged band.",
@@ -8204,16 +8224,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1145,
+"gbp": 495,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -8223,7 +8243,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-017-01-front.jpg",
 "type": "front",
-"alt": "The Wide Baguette Band in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Wide Baguette Band, front view",
 "order": 1,
 "exists": true
 }
@@ -8231,17 +8251,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Wide Baguette Band: a long step-cut stone set flush across a wide, flat-edged band. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Wide Baguette Band: a long step-cut stone set flush across a wide, flat-edged band. From £495 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £845 in sterling silver, or £1,145 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1145,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -8448,8 +8468,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -8514,13 +8533,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -8537,8 +8556,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -8553,7 +8573,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Dome with Pear Sides – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Dome with Pear Sides Engagement Ring | Trovanni",
-"meta_description": "The Dome with Pear Sides: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Dome with Pear Sides: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £495."
 },
 "slug": "dome-with-pear-sides-engagement-ring",
 "story": "A step-cut centre flanked by two small pear stones, all flush-set in a rounded dome band.",
@@ -8561,16 +8581,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1145,
+"gbp": 495,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -8580,7 +8600,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-018-01-front.jpg",
 "type": "front",
-"alt": "The Dome with Pear Sides in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Dome with Pear Sides, front view",
 "order": 1,
 "exists": true
 }
@@ -8588,17 +8608,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Dome with Pear Sides: a step-cut centre flanked by two small pear stones, all flush-set in a rounded dome band. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Dome with Pear Sides: a step-cut centre flanked by two small pear stones, all flush-set in a rounded dome band. From £495 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £845 in sterling silver, or £1,145 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1145,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -8805,8 +8825,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -8871,13 +8890,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -8894,8 +8913,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -8910,7 +8930,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Pear Signet – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Pear Signet Engagement Ring | Trovanni",
-"meta_description": "The Pear Signet: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Pear Signet: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £395."
 },
 "slug": "pear-signet-engagement-ring",
 "story": "A pear stone in a fine bezel on a sleek signet-style face.",
@@ -8918,16 +8938,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1045,
+"gbp": 395,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -8937,7 +8957,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-019-01-front.jpg",
 "type": "front",
-"alt": "The Pear Signet in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Pear Signet, front view",
 "order": 1,
 "exists": true
 }
@@ -8945,17 +8965,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Pear Signet: a pear stone in a fine bezel on a sleek signet-style face. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Pear Signet: a pear stone in a fine bezel on a sleek signet-style face. From £395 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £745 in sterling silver, or £1,045 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1045,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -9162,8 +9182,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -9228,13 +9247,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -9251,8 +9270,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -9267,7 +9287,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Chunky Bezel – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Chunky Bezel Engagement Ring | Trovanni",
-"meta_description": "The Chunky Bezel: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Chunky Bezel: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £395."
 },
 "slug": "chunky-bezel-engagement-ring",
 "story": "A round stone in a deep bezel on a chunky, rounded band – shown in yellow, rose and white.",
@@ -9275,16 +9295,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1045,
+"gbp": 395,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -9294,7 +9314,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-020-01-front.jpg",
 "type": "front",
-"alt": "The Chunky Bezel in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Chunky Bezel, front view",
 "order": 1,
 "exists": true
 }
@@ -9302,17 +9322,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Chunky Bezel: a round stone in a deep bezel on a chunky, rounded band – shown in yellow, rose and white. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Chunky Bezel: a round stone in a deep bezel on a chunky, rounded band – shown in yellow, rose and white. From £395 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £745 in sterling silver, or £1,045 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1045,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -9519,8 +9539,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -9585,13 +9604,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -9608,8 +9627,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -9624,7 +9644,7 @@ window.PRODUCTS=[
 "title": {
 "website": "The Cushion Gypsy Dome – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Cushion Gypsy Dome Engagement Ring | Trovanni",
-"meta_description": "The Cushion Gypsy Dome: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Cushion Gypsy Dome: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £395."
 },
 "slug": "cushion-gypsy-dome-engagement-ring",
 "story": "A cushion stone set deep in a tapered gypsy-style dome band (front and profile shown).",
@@ -9632,16 +9652,16 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1045,
+"gbp": 395,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -9651,14 +9671,14 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-021-01-front.jpg",
 "type": "front",
-"alt": "The Cushion Gypsy Dome in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Cushion Gypsy Dome, front view",
 "order": 1,
 "exists": true
 },
 {
 "src": "trv-lg-021-02-side.jpg",
 "type": "side",
-"alt": "The Cushion Gypsy Dome in 9ct yellow gold, side view (supplier catalogue image)",
+"alt": "The Cushion Gypsy Dome, side view",
 "order": 2,
 "exists": true
 }
@@ -9666,17 +9686,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Cushion Gypsy Dome: a cushion stone set deep in a tapered gypsy-style dome band (front and profile shown). Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Cushion Gypsy Dome: a cushion stone set deep in a tapered gypsy-style dome band (front and profile shown). From £395 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £745 in sterling silver, or £1,045 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1045,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -9883,8 +9903,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -9949,13 +9968,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -9972,8 +9991,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -9988,24 +10008,24 @@ window.PRODUCTS=[
 "title": {
 "website": "The Old-Cut-Style Trilogy – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The Old-Cut-Style Trilogy Engagement Ring | Trovanni",
-"meta_description": "The Old-Cut-Style Trilogy: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "Old-Cut-Style Trilogy: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £645."
 },
-"slug": "old-cut-style-trilogy-engagement-ring",
+"slug": "oldcutstyle-trilogy-engagement-ring",
 "story": "Three rounded, old-cut-style stones in claw settings on a slim band.",
 "condition": {
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 1295,
+"gbp": 645,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -10015,14 +10035,14 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-022-01-front.jpg",
 "type": "front",
-"alt": "The Old-Cut-Style Trilogy in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The Old-Cut-Style Trilogy, front view",
 "order": 1,
 "exists": true
 },
 {
 "src": "trv-lg-022-02-side.jpg",
 "type": "side",
-"alt": "The Old-Cut-Style Trilogy in 9ct yellow gold, side view (supplier catalogue image)",
+"alt": "The Old-Cut-Style Trilogy, side view",
 "order": 2,
 "exists": true
 }
@@ -10030,17 +10050,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The Old-Cut-Style Trilogy: three rounded, old-cut-style stones in claw settings on a slim band. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The Old-Cut-Style Trilogy: three rounded, old-cut-style stones in claw settings on a slim band. From £645 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £995 in sterling silver, or £1,295 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 1295,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -10247,8 +10267,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -10313,13 +10332,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -10336,8 +10355,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
@@ -10352,24 +10372,24 @@ window.PRODUCTS=[
 "title": {
 "website": "The East-West Pear Wrap – laboratory-grown diamond or moissanite engagement ring",
 "seo_title": "The East-West Pear Wrap Engagement Ring | Trovanni",
-"meta_description": "The East-West Pear Wrap: made to order in silver, gold or platinum with a laboratory-grown diamond or moissanite, 1–5ct."
+"meta_description": "East-West Pear Wrap: laboratory-grown diamond or moissanite, made to order in silver, gold or platinum. From £345."
 },
-"slug": "east-west-pear-wrap-engagement-ring",
+"slug": "eastwest-pear-wrap-engagement-ring",
 "story": "A pear laid sideways and wrapped by a sculpted, flowing band.",
 "condition": {
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "silver",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct"
+"metal": "silver",
+"colour": "white",
+"fineness_ppt": 925,
+"carat_label": "925"
 },
-"hallmark_status_public": "UK hallmarked before dispatch (gold and platinum); silver weight TBC",
+"hallmark_status_public": "Gold and platinum options are UK hallmarked",
 "price": {
-"gbp": 995,
+"gbp": 345,
 "compare_at_gbp": null
 },
 "vat_treatment": "not_vat_registered",
@@ -10379,7 +10399,7 @@ window.PRODUCTS=[
 {
 "src": "trv-lg-023-01-front.jpg",
 "type": "front",
-"alt": "The East-West Pear Wrap in 9ct yellow gold, front view (supplier catalogue image)",
+"alt": "The East-West Pear Wrap, front view",
 "order": 1,
 "exists": true
 }
@@ -10387,17 +10407,17 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order: about 20–30 working days (estimate, TBC with supplier)"
+"dispatch_days": "Made to order; your delivery date is confirmed before production"
 },
 "channel_copy": {
-"website_description": "The East-West Pear Wrap: a pear laid sideways and wrapped by a sculpted, flowing band. Shown in 9ct yellow gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum. Choose a certified laboratory-grown diamond or moissanite centre stone, from 1ct up to 5ct. Laboratory-grown diamonds come with an independent grading report (IGI or GIA, TBC with supplier); moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked before dispatch. Made to order in about 4–6 weeks (estimate). Sent by insured, signed-for delivery. 14-day returns on menu options. Price shown is for 1ct laboratory-grown diamond in 9ct gold."
+"website_description": "The East-West Pear Wrap: a pear laid sideways and wrapped by a sculpted, flowing band. From £345 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £695 in sterling silver, or £995 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
 },
 "configurable": {
 "base_price_gbp": 995,
 "default_selection": {
-"metal": "gold_9ct_yellow",
+"metal": "silver_925",
 "centre_carat": 1.0,
-"stone_type": "laboratory_grown_diamond"
+"stone_type": "moissanite"
 },
 "options": {
 "metal": [
@@ -10604,8 +10624,7 @@ window.PRODUCTS=[
 "certificate": {
 "required": true,
 "labs": [
-"IGI",
-"GIA"
+"TBC with supplier"
 ],
 "issued_per_variant": true,
 "min_carat_for_certificate": null
@@ -10670,13 +10689,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver claws for stones of 3ct and above: suitability TBC with supplier (assumption)"
+"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -10693,8 +10712,9 @@ window.PRODUCTS=[
 "engagement": true,
 "configurable": true,
 "price_unapproved": true,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"image_pending": false,
+"metal_group": "silver",
+"metal_family_label": "Silver",
 "purchasable": true,
 "sample": false
 }
