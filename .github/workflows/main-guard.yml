@@ -1,0 +1,15 @@
+name: main-guard
+# Fails if products.js headed for main contains branch-baked preview data or prices Tom hasn't approved.
+on:
+  push: {branches: [main]}
+  pull_request: {branches: [main]}
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: products.js must be production-safe
+        run: |
+          if grep -q 'BRANCH PREVIEW' products.js; then echo "::error::products.js is branch-baked PREVIEW data. Revert to samples/production data before merging."; exit 1; fi
+          if grep -q '"price_unapproved": *true' products.js; then echo "::error::products.js contains items whose price Tom has not approved."; exit 1; fi
+          echo "ok: no preview data, no unapproved prices"

@@ -2,3 +2,4 @@
 .preview/*
 cf-build.sh
 .git
+.github
