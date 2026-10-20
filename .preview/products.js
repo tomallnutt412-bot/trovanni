@@ -2800,13 +2800,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -3157,13 +3157,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -3514,13 +3514,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -3871,13 +3871,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -4228,13 +4228,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -4592,13 +4592,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -4949,13 +4949,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -5306,13 +5306,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -5663,13 +5663,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -6034,13 +6034,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -6391,13 +6391,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -6748,13 +6748,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -7105,13 +7105,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -7462,13 +7462,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -7819,13 +7819,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -8176,13 +8176,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -8533,13 +8533,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -8890,13 +8890,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -9247,13 +9247,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -9604,13 +9604,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -9968,13 +9968,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -10332,13 +10332,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
@@ -10689,13 +10689,13 @@ window.PRODUCTS=[
 "metal": "silver_925",
 "centre_carat": 4.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 },
 {
 "metal": "silver_925",
 "centre_carat": 5.0,
 "stone_type": "*",
-"reason": "Silver not offered with centre stones of 4ct and above (claw security; supplier to confirm)"
+"reason": "Silver not offered with centre stones of 4ct and above"
 }
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",

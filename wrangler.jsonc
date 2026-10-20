@@ -2,6 +2,6 @@
 // without a dashboard build command. Review with Tom before any merge: main currently deploys without this file.
 {
   "name": "trovanni",
-  "compatibility_date": "2026-10-01",
+  "compatibility_date": "2026-04-01",
   "assets": { "directory": "." }
 }
