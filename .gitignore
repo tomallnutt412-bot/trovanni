@@ -1,0 +1,11 @@
+screenshots/
+_parked/
+_src/
+node_modules/
+__pycache__/
+.env
+.env.*
+*.key
+*.pem
+.dev.vars
+.DS_Store
