@@ -1,5 +1,6 @@
-// BRANCH-ONLY experiment (engagement-rings): minimal static-assets Worker config so branch builds can run
-// without a dashboard build command. Review with Tom before any merge: main currently deploys without this file.
+// Static-assets Worker config for trovanni.co.uk. Production (main): `npx wrangler deploy`.
+// Branch previews: `npx wrangler preview` / `versions upload` (needs the empty "previews" block).
+// Internal files are excluded from serving via .assetsignore.
 {
   "name": "trovanni",
   "compatibility_date": "2026-04-01",
