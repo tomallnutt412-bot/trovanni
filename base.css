@@ -44,3 +44,21 @@ form.f input,form.f textarea{display:block;width:100%;padding:10px;margin:6px 0 
  .navopen nav.main{display:flex}.navtoggle{display:block}
  .hero .wrap,.ering .wrap,.split,#product,.shop,footer.site .wrap,.pillars{grid-template-columns:1fr}
  .tiles{grid-template-columns:repeat(3,1fr)}.grid,#shopgrid{grid-template-columns:repeat(2,1fr)}section{padding:44px 0}.hero{padding:44px 0}}
+/* ring configurator */
+.cfg{margin:1rem 0 1.25rem}
+.cfg fieldset{border:0;border-top:1px solid rgba(127,127,127,.3);margin:0;padding:.75rem 0}
+.cfg legend{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;padding:0 .4rem 0 0}
+.cfg .opt{display:inline-flex;align-items:center;gap:.35rem;margin:.25rem .6rem .25rem 0;padding:.45rem .7rem;border:1px solid rgba(127,127,127,.4);border-radius:2rem;cursor:pointer;min-height:44px}
+.cfg .opt:has(input:checked){border-color:currentColor;font-weight:600}
+.cfg select{min-height:44px;padding:.4rem .6rem;font:inherit}
+.cfg .price{font-size:1.6rem;margin:.2rem 0}
+.btable .opts,.row .opts{opacity:.8}
+.cfg .opt.off{opacity:.35;cursor:not-allowed;text-decoration:line-through}
+.card .cimg{background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.card .cimg img{width:100%;height:100%;object-fit:contain}
+.gallery img.big{background:#fff;object-fit:contain}
+.sample.unappr{background:#7a4b00}
+.sample.unappr{margin-right:.5rem;display:inline-block}
+.card .cimg::before,.card .cimg::after{display:none!important;content:none!important}
+.btable td:nth-child(3){white-space:nowrap}
+@media (max-width:520px){.btable td:first-child{font-size:.9rem}.btable input.qty{width:3.2rem}}

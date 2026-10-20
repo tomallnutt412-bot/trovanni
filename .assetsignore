@@ -1,0 +1,4 @@
+.preview
+.preview/*
+cf-build.sh
+.git
