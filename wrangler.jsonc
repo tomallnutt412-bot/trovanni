@@ -7,5 +7,6 @@
   "main": "worker/index.js",
   "compatibility_date": "2026-04-01",
   "assets": { "directory": ".", "binding": "ASSETS" },
-  "previews": {}
+  "previews": {},
+  "vars": { "ALLOW_LIVE": "true" }
 }
