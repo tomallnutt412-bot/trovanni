@@ -1,9 +1,11 @@
-// Static-assets Worker config for trovanni.co.uk. Production (main): `npx wrangler deploy`.
+// Trovanni Worker config for trovanni.co.uk. Production (main): `npx wrangler deploy`.
 // Branch previews: `npx wrangler preview` / `versions upload` (needs the empty "previews" block).
-// Internal files are excluded from serving via .assetsignore.
+// Static files are served from "." (internal files excluded via .assetsignore); /api/* runs worker/index.js first.
+// Secret: STRIPE_SECRET_KEY (Cloudflare dashboard → Worker → Settings → Variables and Secrets). Never commit it.
 {
   "name": "trovanni",
+  "main": "worker/index.js",
   "compatibility_date": "2026-04-01",
-  "assets": { "directory": "." },
+  "assets": { "directory": ".", "binding": "ASSETS", "run_worker_first": ["/api/*"] },
   "previews": {}
 }

@@ -129,7 +129,7 @@ const bk=document.getElementById("basket");
 function rb(){let b=get();const nb=b.filter(x=>{const p=byId(x.id);return p&&p.buyable&&(!CFG(p)||cfgOk(p,x.opts))});if(nb.length!=b.length){set(nb);b=nb;}if(!b.length){bk.innerHTML="<p>Your basket is empty. <a href='shop.html'>Browse the shop</a>.</p>";return;}
  let tot=0;bk.innerHTML="<table class=btable>"+b.map(x=>{const p=byId(x.id);if(!p)return"";const lp=linePrice(x);tot+=lp*x.q;const k=esc0(lineKey(x));
  return `<tr><td>${lineName(x)}</td><td><input type=number min=1 value=${x.q} data-key="${k}" class=qty aria-label="Quantity"></td><td>${(byId(x.id)&&CFG(byId(x.id))?gbp:fmt)(lp*x.q)}</td><td><button data-rm="${k}">Remove</button></td></tr>`}).join("")+
- `</table><p class=total>Subtotal: ${fmt(tot)}</p><p class=note>Shipping chosen at checkout.</p><a class="btn" href="checkout.html">Go to mock checkout</a>`;
+ `</table><p class=total>Subtotal: ${fmt(tot)}</p><p class=note>Shipping chosen at checkout.</p><a class="btn" href="checkout.html">Go to checkout</a>`;
  bk.querySelectorAll(".qty").forEach(i=>i.onchange=()=>{const b=get();b.find(x=>lineKey(x)==i.dataset.key).q=Math.max(1,+i.value);set(b);rb();});
  bk.querySelectorAll("[data-rm]").forEach(r=>r.onclick=()=>{set(get().filter(x=>lineKey(x)!=r.dataset.rm));rb();});}
 if(bk)rb();
@@ -142,11 +142,14 @@ if(co){const PAY=SITE.payments,b=get();let sub=0;b.forEach(x=>{sub+=linePrice(x)
  if(!b.length)lines.innerHTML="<p>Your basket is empty.</p>";
  // ---- Payment stubs. Real integration goes here (see README.md) ----
  const handlers={
-  stripe:o=>{ /* LIVE: redirect to SITE.payments.stripe.paymentLinks[id] or a server-created Checkout Session. */ return Promise.resolve({provider:"Stripe (test mode mock)",ref:"TEST-ST-"+Date.now().toString(36)}); },
+  stripe:o=>fetch(PAY.stripe.checkoutEndpoint,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({items:o.items.map(x=>({id:x.id,q:x.q,opts:x.opts})),ship:co.ship.value})}).then(r=>r.json().then(j=>{if(!r.ok||!j.url)throw new Error(j.error||"Checkout unavailable");return {redirect:j.url};})),
   paypal:o=>{ /* LIVE: load PayPal JS SDK with SITE.payments.paypal.clientId and render buttons; capture server-side. */ return Promise.resolve({provider:"PayPal (sandbox mock)",ref:"TEST-PP-"+Date.now().toString(36)}); }};
  co.onsubmit=e=>{e.preventDefault();if(!b.length)return;const tot=upd();
+  const btn=co.querySelector("button"),err=co.querySelector(".payerr")||co.querySelector("#shipopts").parentNode.appendChild(Object.assign(document.createElement("p"),{className:"note payerr"}));err.textContent="";btn.disabled=true;
   handlers[co.pay.value]({total:tot,currency:"GBP",items:b}).then(r=>{
-   localStorage.setItem("bn_lastorder",JSON.stringify({...r,total:tot,items:b.map(x=>({...x,unit_gbp:linePrice(x)})),name:co.fullname.value,ship:co.ship.value}));localStorage.removeItem(KEY);location.href="order-confirmation.html";});};}
+   if(r.redirect){location.href=r.redirect;return;}
+   localStorage.setItem("bn_lastorder",JSON.stringify({...r,total:tot,items:b.map(x=>({...x,unit_gbp:linePrice(x)})),name:co.fullname.value,ship:co.ship.value}));localStorage.removeItem(KEY);location.href="order-confirmation.html";}).catch(e=>{err.textContent=e.message;btn.disabled=false;});};}
+const cs=document.getElementById("cosuccess");if(cs){localStorage.removeItem(KEY);document.querySelectorAll(".bcount").forEach(e=>e.textContent="0");}
 const oc=document.getElementById("confirm");
 if(oc){const o=JSON.parse(localStorage.getItem("bn_lastorder")||"null");
  oc.innerHTML=o?`<p>Thanks${o.name?", "+o.name:""}. This is a <b>mock confirmation</b>: no payment was taken and no order exists.</p><table><tr><th>Mock reference</th><td>${o.ref}</td></tr><tr><th>Paid via</th><td>${o.provider}</td></tr><tr><th>Total</th><td>${gbp(o.total)} (sample)</td></tr></table>`+o.items.map(x=>byId(x.id)?`<p>${lineName(x)} × ${x.q}</p>`:"").join(""):"<p>No mock order found.</p>";}

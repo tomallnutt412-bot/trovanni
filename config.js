@@ -3,8 +3,8 @@
 window.SITE = {
   BRAND: "Trovanni", // locked brand; changing it swaps the wordmark for plain text at runtime
   payments: {
-    mode: "test", // "test" | "live" (live not wired up yet)
-    stripe: { publishableKey: "pk_test_PLACEHOLDER", paymentLinks: {} }, // e.g. { e1: "https://buy.stripe.com/test_..." }
+    mode: "test", // Stripe: TEST mode (Worker refuses live keys). PayPal: still a sandbox mock.
+    stripe: { checkoutEndpoint: "/api/checkout" }, // hosted Stripe Checkout via the Worker; no publishable key needed. Secret lives in Cloudflare (STRIPE_SECRET_KEY).
     paypal: { clientId: "sandbox-PLACEHOLDER", currency: "GBP" }
   },
   shipping: [
