@@ -47,3 +47,11 @@ The shortlist variants are parked in `_parked/variants/`. `_src/variants.py` onl
 - `python3 _src/data/publish.py set-price BN-000123 450`: change a price and reset approval.
 - Tests: `python3 _src/data/test_publish.py` (these run automatically before every build). Sales validator: `/tmp/jsv/bin/python /workspace/rebrand/sales/validate_products.py`.
 - Photos: put real files in `_src/images/products/<sku>-<nn>-<type>.jpg`. The build marks which ones exist; missing ones show placeholder blocks.
+
+## Stripe Checkout (TEST mode, branch stripe-checkout)
+- `worker/index.js` handles `POST /api/checkout`: looks up every price server-side from `products.js` (schema v5 price rule for configured rings; one-of-one for vintage), then creates a hosted Stripe Checkout Session in GBP with UK-only shipping address collection. Client-sent prices are ignored.
+- Line item names spell out metal, carat and "laboratory-grown diamond" or "moissanite (not a diamond)", plus UK ring size.
+- Secret: Cloudflare secret `STRIPE_SECRET_KEY` (test key). The Worker refuses non-test keys unless `ALLOW_LIVE=true`.
+- Success: `checkout-success.html` (clears basket). Cancel: `checkout-cancelled.html`.
+- Shipping amounts are mirrored in `worker/index.js` (`SHIPPING`) — keep in sync with `config.js`.
+- Not yet: webhook for order fulfilment/emails; PayPal is still a mock.
