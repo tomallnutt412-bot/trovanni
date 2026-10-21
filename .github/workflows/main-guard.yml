@@ -1,5 +1,5 @@
 name: main-guard
-# Fails if products.js headed for main contains branch-baked preview data or prices Tom hasn't approved.
+# Guards main (which deploys live): production-safe product data, live-site state, and no committed secrets.
 on:
   push: {branches: [main]}
   pull_request: {branches: [main]}
@@ -10,6 +10,25 @@ jobs:
       - uses: actions/checkout@v4
       - name: products.js must be production-safe
         run: |
-          if grep -q 'BRANCH PREVIEW' products.js; then echo "::error::products.js is branch-baked PREVIEW data. Revert to samples/production data before merging."; exit 1; fi
+          if grep -q 'BRANCH PREVIEW' products.js; then echo "::error::products.js is branch-baked PREVIEW data. Revert to production data before merging."; exit 1; fi
           if grep -q '"price_unapproved": *true' products.js; then echo "::error::products.js contains items whose price Tom has not approved."; exit 1; fi
-          echo "ok: no preview data, no unapproved prices"
+          if ! grep -q 'window.BUILD_MODE="production"' products.js; then echo "::error::products.js is not a PRODUCTION build."; exit 1; fi
+          echo "ok: production data, no unapproved prices"
+      - name: live-site state (no preview/test markers on public pages)
+        run: |
+          fail=0
+          for f in *.html; do
+            if grep -qiE '<meta name="robots" content="[^"]*noindex' "$f"; then echo "::error file=$f::noindex meta tag on a live page"; fail=1; fi
+            if grep -qE 'class="(ribbon|testbanner)"' "$f"; then echo "::error file=$f::prototype ribbon / test banner on a live page"; fail=1; fi
+            if grep -qE '4242 4242|value="paypal"|sandbox mock' "$f"; then echo "::error file=$f::test card / PayPal mock on a live page"; fail=1; fi
+          done
+          if grep -qiE '^Disallow: /$' robots.txt; then echo "::error::robots.txt blocks the whole site"; fail=1; fi
+          grep -q 'Sitemap:' robots.txt || { echo "::error::robots.txt has no Sitemap line"; fail=1; }
+          [ -f sitemap.xml ] || { echo "::error::sitemap.xml missing"; fail=1; }
+          exit $fail
+      - name: no secrets committed
+        run: |
+          if git grep -nIE '(sk|rk)_(live|test)_[0-9A-Za-z]{10,}|whsec_[0-9A-Za-z]{10,}|-----BEGIN [A-Z ]*PRIVATE KEY-----' -- . ':!.github'; then
+            echo "::error::Possible secret committed. Remove it and rotate the key."; exit 1; fi
+          if git ls-files | grep -qE '(^|/)\.dev\.vars$|(^|/)\.env(\..*)?$|\.pem$|\.key$'; then echo "::error::Secret-bearing file is tracked."; exit 1; fi
+          echo "ok: no secrets found"

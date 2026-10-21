@@ -4,8 +4,8 @@
 
 // Mirror of SITE.shipping in config.js (server is the source of truth for the charged amount).
 const SHIPPING = {
-  std: { label: "UK tracked", gbp: 0 },
-  next: { label: "UK next-day special delivery", gbp: 15 },
+  std: { label: "Royal Mail tracked", gbp: 0 },
+  next: { label: "Royal Mail Special Delivery, next working day", gbp: 15 },
 };
 const MAX_RING_QTY = 3;
 

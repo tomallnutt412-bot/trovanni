@@ -1,2 +1,6 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /api/
+Disallow: /social/
+
+Sitemap: https://trovanni.co.uk/sitemap.xml

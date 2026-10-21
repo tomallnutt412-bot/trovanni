@@ -10,7 +10,7 @@ const B=(window.SITE&&SITE.BRAND)||"Trovanni";
 document.querySelectorAll(".brand").forEach(e=>e.textContent=B);
 if(B!=="Trovanni"){document.title=document.title.replace(/Trovanni/g,B);document.querySelectorAll(".logo").forEach(e=>{e.textContent=B;e.setAttribute("aria-label",B+" home")});}
 (function(){const i=(B.trim()[0]||"B").toUpperCase(),l=document.querySelector("link[rel=icon]");if(l&&B!=="Trovanni")l.href="data:image/svg+xml,"+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#161411"/><text x="32" y="45" text-anchor="middle" font-family="Georgia,serif" font-size="40" fill="#f3eee4">${i}</text></svg>`);})();
-const gbp=p=>"£"+p.toLocaleString("en-GB");const fmt=p=>gbp(p)+" · sample";
+const gbp=p=>"£"+p.toLocaleString("en-GB");const fmt=p=>gbp(p);
 const KEY="bn_basket";
 // ---- Ring configurator (schema v5 product_type configurable_ring). All prices come from the data; nothing priced in code. ----
 const CFG=p=>p&&p._site&&p._site.configurable?p.configurable:null;
@@ -63,7 +63,7 @@ if(sg){const q=new URLSearchParams(location.search);
  function run(){const cs=[...fc.querySelectorAll(":checked")].map(i=>i.value),ms=[...document.querySelectorAll("#fmetals :checked,#fother :checked")].map(i=>i.value);
   const mn=+document.getElementById("fmin").value||0,mx=+document.getElementById("fmax").value||1e9,gd=gsel.value;
   const qs=fq.value.trim().toLowerCase();const l=PRODUCTS.filter(p=>(!qs||(p.name+" "+p.category+" "+p.metal+" "+p.metalFamilyLabel+" "+p.eraLabel).toLowerCase().includes(qs))&&(!cs.length||cs.includes(p.category))&&(!ms.length||ms.includes(p.metal))&&p.price>=mn&&p.price<=mx&&(!gd||p.gender==gd||p.gender=="unisex"));
-  sg.innerHTML=l.length?l.map(card).join(""):"<p>No placeholder products match these filters.</p>";
+  sg.innerHTML=l.length?l.map(card).join(""):"<p>No pieces match these filters.</p>";
   document.getElementById("fcount").textContent=l.length+(window.BUILD_MODE=="preview"?" sample items":" items");}
  document.getElementById("filters").addEventListener("input",run);
  document.getElementById("freset").onclick=()=>{document.getElementById("filters").reset();setTimeout(run)};run();}
@@ -137,21 +137,19 @@ const co=document.getElementById("checkout");
 if(co){const PAY=SITE.payments,b=get();let sub=0;b.forEach(x=>{sub+=linePrice(x)*x.q});
  document.getElementById("shipopts").innerHTML=SITE.shipping.map((s,i)=>`<label class=opt><input type=radio name=ship value="${s.id}" ${i?"":"checked"}> ${s.label} <b>${s.price?gbp(s.price):"Free"}</b></label>`).join("");
  const lines=document.getElementById("colines");
- function upd(){const s=SITE.shipping.find(x=>x.id==co.ship.value);lines.innerHTML=b.map(x=>{return byId(x.id)?`<div class=row><span>${lineName(x)} × ${x.q}</span><span>${gbp(linePrice(x)*x.q)}</span></div>`:""}).join("")+`<div class=row><span>Shipping</span><span>${s.price?gbp(s.price):"Free"}</span></div><div class="row total"><span>Total (sample)</span><span>${gbp(sub+s.price)}</span></div>`;return sub+s.price;}
+ function upd(){const s=SITE.shipping.find(x=>x.id==co.ship.value);lines.innerHTML=b.map(x=>{return byId(x.id)?`<div class=row><span>${lineName(x)} × ${x.q}</span><span>${gbp(linePrice(x)*x.q)}</span></div>`:""}).join("")+`<div class=row><span>Shipping</span><span>${s.price?gbp(s.price):"Free"}</span></div><div class="row total"><span>Total</span><span>${gbp(sub+s.price)}</span></div>`;return sub+s.price;}
  co.addEventListener("change",upd);upd();
  if(!b.length)lines.innerHTML="<p>Your basket is empty.</p>";
- // ---- Payment stubs. Real integration goes here (see README.md) ----
+ // ---- Payment: Stripe Checkout via the Worker (/api/checkout) ----
  const handlers={
-  stripe:o=>fetch(PAY.stripe.checkoutEndpoint,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({items:o.items.map(x=>({id:x.id,q:x.q,opts:x.opts})),ship:co.ship.value})}).then(r=>r.json().then(j=>{if(!r.ok||!j.url)throw new Error(j.error||"Checkout unavailable");return {redirect:j.url};})),
-  paypal:o=>{ /* LIVE: load PayPal JS SDK with SITE.payments.paypal.clientId and render buttons; capture server-side. */ return Promise.resolve({provider:"PayPal (sandbox mock)",ref:"TEST-PP-"+Date.now().toString(36)}); }};
+  stripe:o=>fetch(PAY.stripe.checkoutEndpoint,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({items:o.items.map(x=>({id:x.id,q:x.q,opts:x.opts})),ship:co.ship.value})}).then(r=>r.json().then(j=>{if(!r.ok||!j.url)throw new Error(j.error||"Checkout unavailable");return {redirect:j.url};})),};
  co.onsubmit=e=>{e.preventDefault();if(!b.length)return;const tot=upd();
   const btn=co.querySelector("button"),err=co.querySelector(".payerr")||co.querySelector("#shipopts").parentNode.appendChild(Object.assign(document.createElement("p"),{className:"note payerr"}));err.textContent="";btn.disabled=true;
   handlers[co.pay.value]({total:tot,currency:"GBP",items:b}).then(r=>{
    if(r.redirect){location.href=r.redirect;return;}
-   localStorage.setItem("bn_lastorder",JSON.stringify({...r,total:tot,items:b.map(x=>({...x,unit_gbp:linePrice(x)})),name:co.fullname.value,ship:co.ship.value}));localStorage.removeItem(KEY);location.href="order-confirmation.html";}).catch(e=>{err.textContent=e.message;btn.disabled=false;});};}
+   localStorage.setItem("bn_lastorder",JSON.stringify({...r,total:tot,items:b.map(x=>({...x,unit_gbp:linePrice(x)})),name:"",ship:co.ship.value}));localStorage.removeItem(KEY);location.href="order-confirmation.html";}).catch(e=>{err.textContent=e.message;btn.disabled=false;});};}
 const cs=document.getElementById("cosuccess");if(cs){localStorage.removeItem(KEY);document.querySelectorAll(".bcount").forEach(e=>e.textContent="0");}
 const oc=document.getElementById("confirm");
 if(oc){const o=JSON.parse(localStorage.getItem("bn_lastorder")||"null");
- oc.innerHTML=o?`<p>Thanks${o.name?", "+o.name:""}. This is a <b>mock confirmation</b>: no payment was taken and no order exists.</p><table><tr><th>Mock reference</th><td>${o.ref}</td></tr><tr><th>Paid via</th><td>${o.provider}</td></tr><tr><th>Total</th><td>${gbp(o.total)} (sample)</td></tr></table>`+o.items.map(x=>byId(x.id)?`<p>${lineName(x)} × ${x.q}</p>`:"").join(""):"<p>No mock order found.</p>";}
-const cf=document.getElementById("contactform");if(cf)cf.onsubmit=e=>{e.preventDefault();cf.innerHTML="<p class=mock>Prototype only: this form doesn't send anything yet.</p>";};
+ oc.innerHTML=o?`<p>Thank you for your order.</p><table><tr><th>Reference</th><td>${o.ref}</td></tr><tr><th>Paid via</th><td>${o.provider}</td></tr><tr><th>Total</th><td>${gbp(o.total)}</td></tr></table>`+o.items.map(x=>byId(x.id)?`<p>${lineName(x)} × ${x.q}</p>`:"").join(""):"<p>No recent order found. If you've just paid, check your email for your receipt.</p>";}
 })();
