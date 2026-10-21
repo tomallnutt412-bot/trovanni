@@ -26,7 +26,7 @@ const cfgDef=p=>{const d=CFG(p).default_selection;return {metal:d.metal,carat:+d
 const stoneLabel=s=>s.public_name+(s.code=="moissanite"?" (a diamond simulant)":"");
 const ct=k=>(+k).toFixed(1)+"ct";
 const cfgText=(p,o)=>[findM(p,o.metal).label,ct(o.carat)+" "+stoneLabel(findS(p,o.stone)),o.size?"UK size "+o.size:""].filter(Boolean).join(" · ");
-const cfgLead=(p,o)=>{const l=CFG(p).lead_time,x=o?findM(p,o.metal).lead_time_extra_working_days||0:0;return `${l.working_days_min+x}–${l.working_days_max+x} working days${l.is_estimate?" (estimate)":""}${l.includes_uk_hallmarking?", including UK hallmarking":""}`;};
+const cfgLead=(p,o)=>"Made to order: 3 to 4 weeks (made to your size and spec, UK hallmarked, IGI certificate where applicable)"; // Tom-approved 2026-10-21, same for every metal
 const lineKey=x=>x.id+(x.opts?"|"+x.opts.metal+"|"+x.opts.carat+"|"+x.opts.stone+"|"+(x.opts.size||""):"");
 const linePrice=x=>{const p=byId(x.id);return p?(CFG(p)&&x.opts?cfgPrice(p,x.opts):p.price):0;};
 const lineName=x=>{const p=byId(x.id);return p?esc0(p.name)+(CFG(p)&&x.opts?`<br><small class="opts">${esc0(cfgText(p,x.opts))}</small>`:"")+(p._site.price_unapproved?' <span class="sample">Preview: price awaiting Tom\'s approval</span>':""):"";};
@@ -88,7 +88,7 @@ else if(pd){const p=byId(pid);
  ${CFG(p)?cfgForm(p):`<p class="price">${p.sold?'<s>'+fmt(p.price)+'</s> Sold':fmt(p.price)}</p>`}
  ${p.story?`<p>${esc(p.story)}</p>`:""}
  ${CFG(p)?`${p.channel_copy&&p.channel_copy.website_description?`<p>${esc(p.channel_copy.website_description)}</p>`:""}<div class="lgbox"><b>Made to order</b><table>${row("Lead time",`<span id="cfglead">${cfgLead(p,cfgDef(p))}</span>`)}${row("Hallmarking",`<span id="cfghall"></span>`)}${row("Laboratory-grown diamond","Comes with an independent grading report ("+O(p).stone_type.filter(s=>s.code=="laboratory_grown_diamond").map(s=>s.certificate.labs.join(" or ")).join("")+"), issued for your stone")}${row("Moissanite","A diamond simulant: a different gemstone, not a diamond")}${row("Returns","14-day returns on standard options")}</table></div>`:lg?`<div class="lgbox"><b>Laboratory-grown diamond</b><table>${row("Grading report",esc(lg.certificate.lab)+" report no. "+esc(lg.certificate.report_number))}${row("Carat",lg.four_cs.carat.toFixed(2)+"ct")}${row("Colour",esc(lg.four_cs.colour))}${row("Clarity",esc(lg.four_cs.clarity))}${row("Cut",esc(lg.four_cs.cut||"Not graded"))}${row("Shape",esc(lg.four_cs.shape))}${row("Growth method",esc(lg.certificate.growth_method))}${row("Setting",esc(lg.setting_style))}
-   ${row("Made to order",`Made for you: dispatched in ${lg.made_to_order.lead_time_working_days_min}–${lg.made_to_order.lead_time_working_days_max} working days${lg.made_to_order.includes_hallmarking_time?" (includes hallmarking)":""}`)}${row("Sizes",(lg.available_sizes_uk||[]).join(", "))}</table></div>`:""}
+   ${row("Made to order","Made to order: 3 to 4 weeks (made to your size and spec, UK hallmarked, IGI certificate where applicable)")}${row("Sizes",(lg.available_sizes_uk||[]).join(", "))}</table></div>`:""}
  <table>
  ${row("Era",esc(p.eraLabel)+(p.era&&p.era.is_estimate?" (estimated)":""))}${row("Era evidence",p.era?EB[p.era.evidence_basis]:"")}
  ${row("Maker",p.maker?esc(p.maker.name):"")}

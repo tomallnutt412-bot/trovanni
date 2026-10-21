@@ -46,7 +46,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The Radiant Solitaire: a crisp radiant-cut solitaire held in four claws on a fine band. From £245 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £595 in sterling silver, or £895 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -200,7 +200,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -339,8 +339,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
@@ -403,7 +403,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The Emerald-Cut Solitaire: an emerald-cut solitaire with long step-cut facets, four claws, slim band. From £245 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £595 in sterling silver, or £895 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -557,7 +557,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -696,8 +696,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
@@ -767,7 +767,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The Hidden Halo Oval: an oval solitaire with a hidden halo of tiny stones beneath the centre, only seen from the side. From £345 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £695 in sterling silver, or £995 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -921,7 +921,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -1060,8 +1060,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
@@ -1124,7 +1124,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The Toi et Moi – Emerald & Pear: two stones side by side – an emerald cut and a pear – in a toi et moi ('you and me') setting. From £645 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £995 in sterling silver, or £1,295 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -1278,7 +1278,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -1417,8 +1417,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
@@ -1495,7 +1495,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The East-West Sculpted Oval: an oval set sideways (east-west) in a bold, sculpted band that sweeps around the stone. From £345 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £695 in sterling silver, or £995 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -1649,7 +1649,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -1788,8 +1788,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
@@ -1852,7 +1852,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The Toi et Moi – Heart & Pear: a heart and a pear set side by side in a toi et moi ('you and me') ring. From £645 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £995 in sterling silver, or £1,295 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -2006,7 +2006,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -2145,8 +2145,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
@@ -2209,7 +2209,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The Oval Dome: an east-west oval sunk into a smooth, high-polish dome band – bold, low and snag-free. From £395 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £745 in sterling silver, or £1,045 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -2363,7 +2363,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -2502,8 +2502,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
@@ -2566,7 +2566,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The East-West Sculpted Emerald: an emerald cut laid sideways in a sculpted band that sweeps up around the stone. From £345 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £695 in sterling silver, or £995 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -2720,7 +2720,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -2859,8 +2859,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
@@ -2923,7 +2923,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The Wide Baguette Band: a long step-cut stone set flush across a wide, flat-edged band. From £495 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £845 in sterling silver, or £1,145 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -3077,7 +3077,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -3216,8 +3216,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
@@ -3280,7 +3280,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The Dome with Pear Sides: a step-cut centre flanked by two small pear stones, all flush-set in a rounded dome band. From £495 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £845 in sterling silver, or £1,145 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -3434,7 +3434,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -3573,8 +3573,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
@@ -3637,7 +3637,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The Pear Signet: a pear stone in a fine bezel on a sleek signet-style face. From £395 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £745 in sterling silver, or £1,045 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -3791,7 +3791,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -3930,8 +3930,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
@@ -3994,7 +3994,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The Chunky Bezel: a round stone in a deep bezel on a chunky, rounded band – shown in yellow, rose and white. From £395 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £745 in sterling silver, or £1,045 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -4148,7 +4148,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -4287,8 +4287,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
@@ -4358,7 +4358,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The Cushion Gypsy Dome: a cushion stone set deep in a tapered gypsy-style dome band (front and profile shown). From £395 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £745 in sterling silver, or £1,045 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -4512,7 +4512,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -4651,8 +4651,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
@@ -4722,7 +4722,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The Old-Cut-Style Trilogy: three rounded, old-cut-style stones in claw settings on a slim band. From £645 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £995 in sterling silver, or £1,295 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -4876,7 +4876,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -5015,8 +5015,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
@@ -5079,7 +5079,7 @@ window.PRODUCTS=[
 "shipping": {
 "method": "Royal Mail Special Delivery",
 "signed_insured": true,
-"dispatch_days": "Made to order; your delivery date is confirmed before production"
+"dispatch_days": "Made to order: 3 to 4 weeks"
 },
 "channel_copy": {
 "website_description": "The East-West Pear Wrap: a pear laid sideways and wrapped by a sculpted, flowing band. From £345 in sterling silver with a 1ct moissanite. Laboratory-grown diamond options from £695 in sterling silver, or £995 in 9ct gold. Made to order in sterling silver, 9ct, 14ct or 18ct gold (yellow, white or rose) or platinum, with a laboratory-grown diamond or moissanite centre stone from 1ct up to 5ct (sterling silver up to 3ct; 4ct and above are offered in gold or platinum only). Moissanite is a different gemstone, not a diamond. Gold and platinum rings are UK hallmarked. Stone details, measurements and your delivery date are confirmed with you before your ring goes into production. 14-day returns. Sent by insured, signed-for delivery."
@@ -5233,7 +5233,7 @@ window.PRODUCTS=[
 "requirement": "uk_hallmark_required",
 "exemption_weight_g": 0.5
 },
-"lead_time_extra_working_days": 5,
+"lead_time_extra_working_days": 0,
 "available": true
 }
 ],
@@ -5372,8 +5372,8 @@ window.PRODUCTS=[
 ],
 "price_rule": "base + metal + carat[stone_type] + stone_type",
 "lead_time": {
-"working_days_min": 20,
-"working_days_max": 30,
+"working_days_min": 15,
+"working_days_max": 20,
 "includes_uk_hallmarking": true,
 "is_estimate": true
 }
