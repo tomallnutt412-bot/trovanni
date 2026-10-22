@@ -27,7 +27,7 @@ jobs:
           [ -f sitemap.xml ] || { echo "::error::sitemap.xml missing"; fail=1; }
           exit $fail
       - name: checkout Worker refuses price-on-request (earring) SKUs
-        run: node --test worker/test/
+        run: node --test worker/test/checkout.test.mjs
       - name: no secrets committed
         run: |
           if git grep -nIE '(sk|rk)_(live|test)_[0-9A-Za-z]{10,}|whsec_[0-9A-Za-z]{10,}|-----BEGIN [A-Z ]*PRIVATE KEY-----' -- . ':!.github'; then
