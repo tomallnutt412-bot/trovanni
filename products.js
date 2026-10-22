@@ -5399,7 +5399,7 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Round Classic Studs – laboratory-grown diamond or moissanite, solid gold",
+"website": "The Round Classic Studs",
 "seo_title": "The Round Classic Studs | Trovanni"
 },
 "slug": "round-classic-studs",
@@ -5408,17 +5408,13 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -5439,23 +5435,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -5465,8 +5445,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }
@@ -5479,7 +5459,7 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Oval Studs – laboratory-grown diamond or moissanite, solid gold",
+"website": "The Oval Studs",
 "seo_title": "The Oval Studs | Trovanni"
 },
 "slug": "oval-studs",
@@ -5488,17 +5468,13 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -5519,23 +5495,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -5545,8 +5505,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }
@@ -5559,7 +5519,7 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Pear Studs – laboratory-grown diamond or moissanite, solid gold",
+"website": "The Pear Studs",
 "seo_title": "The Pear Studs | Trovanni"
 },
 "slug": "pear-studs",
@@ -5568,17 +5528,13 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -5599,23 +5555,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -5625,8 +5565,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }
@@ -5639,7 +5579,7 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Heart Studs – laboratory-grown diamond or moissanite, solid gold",
+"website": "The Heart Studs",
 "seo_title": "The Heart Studs | Trovanni"
 },
 "slug": "heart-studs",
@@ -5648,17 +5588,13 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -5679,23 +5615,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -5705,8 +5625,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }
@@ -5719,26 +5639,22 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Radiant Studs – laboratory-grown diamond or moissanite, solid gold",
-"seo_title": "The Radiant Studs | Trovanni"
+"website": "The Rectangle Studs",
+"seo_title": "The Rectangle Studs | Trovanni"
 },
-"slug": "radiant-studs",
-"story": "Elongated rectangular studs in a four-claw basket setting, cut for sparkle.",
+"slug": "rectangle-studs",
+"story": "Elongated rectangular studs in a four-claw basket setting.",
 "condition": {
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -5749,7 +5665,7 @@ window.PRODUCTS=[
 {
 "src": "trv-er-005-01-front.jpg",
 "type": "front",
-"alt": "The Radiant Studs, front view",
+"alt": "The Rectangle Studs, front view",
 "order": 1,
 "exists": true
 }
@@ -5759,23 +5675,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -5785,8 +5685,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }
@@ -5799,26 +5699,22 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Tulip Collet Round – laboratory-grown diamond or moissanite, solid gold",
+"website": "The Tulip Collet Round",
 "seo_title": "The Tulip Collet Round | Trovanni"
 },
-"slug": "tulip-collet-round-studs",
+"slug": "tulip-collet-round",
 "story": "A round stone raised in a tulip-petal collet, with a sculpted petal gallery visible from the side.",
 "condition": {
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -5839,23 +5735,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -5865,8 +5745,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }
@@ -5879,26 +5759,22 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Tulip Collet Pear – laboratory-grown diamond or moissanite, solid gold",
+"website": "The Tulip Collet Pear",
 "seo_title": "The Tulip Collet Pear | Trovanni"
 },
-"slug": "tulip-collet-pear-studs",
+"slug": "tulip-collet-pear",
 "story": "A pear-shaped stone in the tulip-petal collet, with a fine claw at the tip.",
 "condition": {
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -5919,23 +5795,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -5945,8 +5805,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }
@@ -5959,26 +5819,22 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Tulip Collet Radiant – laboratory-grown diamond or moissanite, solid gold",
-"seo_title": "The Tulip Collet Radiant | Trovanni"
+"website": "The Tulip Collet Rectangle",
+"seo_title": "The Tulip Collet Rectangle | Trovanni"
 },
-"slug": "tulip-collet-radiant-studs",
+"slug": "tulip-collet-rectangle",
 "story": "An elongated rectangular stone in the tulip-petal collet, clean-lined and modern.",
 "condition": {
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -5989,7 +5845,7 @@ window.PRODUCTS=[
 {
 "src": "trv-er-008-01-front.jpg",
 "type": "front",
-"alt": "The Tulip Collet Radiant, front view",
+"alt": "The Tulip Collet Rectangle, front view",
 "order": 1,
 "exists": true
 }
@@ -5999,23 +5855,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -6025,8 +5865,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }
@@ -6039,7 +5879,7 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Pear Halo Studs – laboratory-grown diamond or moissanite, solid gold",
+"website": "The Pear Halo Studs",
 "seo_title": "The Pear Halo Studs | Trovanni"
 },
 "slug": "pear-halo-studs",
@@ -6048,17 +5888,13 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -6079,23 +5915,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -6105,8 +5925,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }
@@ -6119,7 +5939,7 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Heart Halo Studs – laboratory-grown diamond or moissanite, solid gold",
+"website": "The Heart Halo Studs",
 "seo_title": "The Heart Halo Studs | Trovanni"
 },
 "slug": "heart-halo-studs",
@@ -6128,17 +5948,13 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -6159,23 +5975,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -6185,8 +5985,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }
@@ -6199,7 +5999,7 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Marquise Studs – laboratory-grown diamond or moissanite, solid gold",
+"website": "The Marquise Studs",
 "seo_title": "The Marquise Studs | Trovanni"
 },
 "slug": "marquise-studs",
@@ -6208,17 +6008,13 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -6239,23 +6035,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -6265,8 +6045,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }
@@ -6279,7 +6059,7 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Star Cluster Studs – laboratory-grown diamond or moissanite, solid gold",
+"website": "The Star Cluster Studs",
 "seo_title": "The Star Cluster Studs | Trovanni"
 },
 "slug": "star-cluster-studs",
@@ -6288,17 +6068,13 @@ window.PRODUCTS=[
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -6319,23 +6095,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -6345,8 +6105,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }
@@ -6359,26 +6119,22 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Flora Pear – laboratory-grown diamond or moissanite, solid gold",
+"website": "The Flora Pear",
 "seo_title": "The Flora Pear | Trovanni"
 },
-"slug": "flora-pear-studs",
+"slug": "flora-pear",
 "story": "From the Flora series: a pear-shaped stone in an open, organic frame dotted with small beads.",
 "condition": {
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -6399,23 +6155,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -6425,8 +6165,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }
@@ -6439,26 +6179,22 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Flora Hoop – laboratory-grown diamond or moissanite, solid gold",
+"website": "The Flora Hoop",
 "seo_title": "The Flora Hoop | Trovanni"
 },
-"slug": "flora-hoop-earrings",
+"slug": "flora-hoop",
 "story": "From the Flora series: a double hoop, one band polished and one lined with tiny pavé-set stones.",
 "condition": {
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -6479,23 +6215,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -6505,8 +6225,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }
@@ -6519,26 +6239,22 @@ window.PRODUCTS=[
 "item_category": "Earrings",
 "audience": "women",
 "title": {
-"website": "The Flora Matching Set – laboratory-grown diamond or moissanite, solid gold",
+"website": "The Flora Matching Set",
 "seo_title": "The Flora Matching Set | Trovanni"
 },
 "slug": "flora-matching-set",
-"story": "From the Flora series: a pendant necklace and matching studs, each stone set in the same beaded organic frame.",
+"story": "From the Flora series: a matching set. Contents on request.",
 "condition": {
 "grade": "New",
 "notes": "New, made to order."
 },
-"metal_family": "yellow_gold",
+"metal_family": "other",
 "metal": {
-"metal": "gold",
-"colour": "yellow",
-"fineness_ppt": 375,
-"carat_label": "9ct",
-"solid": true
+"metal": "other",
+"fineness_ppt": null
 },
 "stones": null,
 "weight_g": null,
-"hallmark_status_public": "UK hallmarked",
 "price": {
 "gbp": null,
 "compare_at_gbp": null,
@@ -6559,23 +6275,7 @@ window.PRODUCTS=[
 "signed_insured": true,
 "dispatch_days": "Made to order; your delivery date is confirmed before you order"
 },
-"options_public": {
-"metal": [
-"9ct yellow gold",
-"9ct white gold",
-"9ct rose gold",
-"14ct yellow gold",
-"14ct white gold",
-"14ct rose gold",
-"18ct yellow gold",
-"18ct white gold",
-"18ct rose gold"
-],
-"stone_type": [
-"Laboratory-grown diamond",
-"Moissanite"
-]
-},
+"specs_public": "Metal and stone details on request",
 "_site": {
 "category": "Earrings",
 "audience": "women",
@@ -6585,8 +6285,8 @@ window.PRODUCTS=[
 "enquiry_only": true,
 "price_unapproved": false,
 "image_pending": false,
-"metal_group": "gold",
-"metal_family_label": "Yellow gold",
+"metal_group": "other",
+"metal_family_label": "Other",
 "purchasable": false,
 "sample": false
 }

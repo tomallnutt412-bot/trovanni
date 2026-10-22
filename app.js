@@ -110,12 +110,12 @@ else if(pd&&!POR(byId(pid))){const p=byId(pid);
  ${precious?'<div class="dn"><b>Hallmarking.</b> We display the official Dealer\'s Notice explaining UK hallmarks. <a href="dealers-notice.html">View the Dealer\'s Notice</a>.</div>':""}
  ${p.isSample?'<p class="note">Sample listing: all details are fictional.</p>':""}</div>`;}
 if(pd&&byId(pid)&&CFG(byId(pid)))cfgWire(byId(pid));
-if(pd&&byId(pid)&&POR(byId(pid))){const p=byId(pid),ph=(p.photos||[])[0],op=p.options_public||{};const short=p.name.split(" – ")[0];
+if(pd&&byId(pid)&&POR(byId(pid))){const p=byId(pid),ph=(p.photos||[])[0];const short=p.name.split(" – ")[0];
  pd.innerHTML=`<div class="gallery">${ph&&ph.exists?`<img class="big" src="images/products/${esc0(ph.src.split("/").pop())}" alt="${esc0(ph.alt)}">`:'<div class="ph big"><span>Photo</span></div>'}<p class="note">Image shows the design; each pair is made to order.</p></div>
  <div class="pinfo por"><small>${esc0(p.category)} · Made to order</small><h1>${esc0(short)}</h1><p class="price por-price">Price on request</p>
  ${p.story?`<p>${esc0(p.story)}</p>`:""}
- <div class="lgbox"><b>Made to order</b><table>${row("Metal",(op.metal||[]).map(esc0).join(", ")+(p.metal&&p.metal.solid?" (solid gold)":""))}${row("Stone",(op.stone_type||[]).map((s,i)=>esc0(i?s.toLowerCase():s)).join(" or "))}${(op.stone_type||[]).some(s=>/moissanite/i.test(s))?row("Moissanite","A different gemstone, not a diamond"):""}${row("Hallmarking",esc0(p.hallmark_status_public))}${row("Sizes and stones","Stone sizes, measurements and your delivery date are confirmed with you before your order goes into production")}${row("Returns","14-day returns")}</table></div>
- <a class="btn enquire" href="${enquireHref(p)}">Enquire</a> <a class="btn alt" href="earrings.html">All earrings</a><p class="note">Not available to buy online yet: enquire for a price.</p>
+ <div class="lgbox"><b>Made to order</b><table>${row("Metal and stone","Metal and stone details on request")}${row("Sizes","Measurements and your delivery date are confirmed with you before your order goes into production")}${row("Returns","14-day returns")}</table></div>
+ <a class="btn enquire" href="${enquireHref(p)}">Enquire</a> <a class="btn alt" href="earrings.html">All earrings</a><p class="note">Not available to buy online yet: enquire for a price and metal and stone details.</p>
  <div class="returns"><b>14-day returns.</b> <a href="shipping.html#returns">Full returns policy</a>.</div></div>`;}
 const enq=document.getElementById("enquiry");if(enq){const e=new URLSearchParams(location.search).get("enquiry"),ep=e&&byId(e);if(ep)enq.innerHTML=`<p class="lgbox">You're enquiring about <b>${esc0(ep.name.split(" – ")[0])}</b> (ref ${esc0(ep.id)}). Send us a message with the reference and we'll come back to you with a price.</p>`;}
 function cfgForm(p){const o=O(p),d=cfgDef(p);const rad=(n,v,l,ck)=>`<label class="opt"><input type=radio name="${n}" value="${esc0(v)}" ${ck?"checked":""}> <span>${esc0(l)}</span></label>`;
