@@ -5390,6 +5390,1206 @@ window.PRODUCTS=[
 "purchasable": true,
 "sample": false
 }
+},
+{
+"sku": "TRV-ER-001",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Round Classic Studs – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Round Classic Studs | Trovanni"
+},
+"slug": "round-classic-studs",
+"story": "Round solitaire studs held in a six-claw setting, a timeless everyday pair.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-001-01-front.jpg",
+"type": "front",
+"alt": "The Round Classic Studs, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
+},
+{
+"sku": "TRV-ER-002",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Oval Studs – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Oval Studs | Trovanni"
+},
+"slug": "oval-studs",
+"story": "Oval solitaire studs in a slim four-claw setting, elongated for a softer look.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-002-01-front.jpg",
+"type": "front",
+"alt": "The Oval Studs, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
+},
+{
+"sku": "TRV-ER-003",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Pear Studs – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Pear Studs | Trovanni"
+},
+"slug": "pear-studs",
+"story": "Pear-shaped solitaire studs, claw set with the point uppermost.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-003-01-front.jpg",
+"type": "front",
+"alt": "The Pear Studs, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
+},
+{
+"sku": "TRV-ER-004",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Heart Studs – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Heart Studs | Trovanni"
+},
+"slug": "heart-studs",
+"story": "Heart-shaped solitaire studs in a three-claw setting; a natural gift piece.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-004-01-front.jpg",
+"type": "front",
+"alt": "The Heart Studs, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
+},
+{
+"sku": "TRV-ER-005",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Radiant Studs – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Radiant Studs | Trovanni"
+},
+"slug": "radiant-studs",
+"story": "Elongated rectangular studs in a four-claw basket setting, cut for sparkle.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-005-01-front.jpg",
+"type": "front",
+"alt": "The Radiant Studs, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
+},
+{
+"sku": "TRV-ER-006",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Tulip Collet Round – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Tulip Collet Round | Trovanni"
+},
+"slug": "tulip-collet-round-studs",
+"story": "A round stone raised in a tulip-petal collet, with a sculpted petal gallery visible from the side.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-006-01-front.jpg",
+"type": "front",
+"alt": "The Tulip Collet Round, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
+},
+{
+"sku": "TRV-ER-007",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Tulip Collet Pear – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Tulip Collet Pear | Trovanni"
+},
+"slug": "tulip-collet-pear-studs",
+"story": "A pear-shaped stone in the tulip-petal collet, with a fine claw at the tip.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-007-01-front.jpg",
+"type": "front",
+"alt": "The Tulip Collet Pear, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
+},
+{
+"sku": "TRV-ER-008",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Tulip Collet Radiant – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Tulip Collet Radiant | Trovanni"
+},
+"slug": "tulip-collet-radiant-studs",
+"story": "An elongated rectangular stone in the tulip-petal collet, clean-lined and modern.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-008-01-front.jpg",
+"type": "front",
+"alt": "The Tulip Collet Radiant, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
+},
+{
+"sku": "TRV-ER-009",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Pear Halo Studs – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Pear Halo Studs | Trovanni"
+},
+"slug": "pear-halo-studs",
+"story": "A pear-shaped centre stone framed by a halo of small pavé-set stones.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-009-01-front.jpg",
+"type": "front",
+"alt": "The Pear Halo Studs, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
+},
+{
+"sku": "TRV-ER-010",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Heart Halo Studs – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Heart Halo Studs | Trovanni"
+},
+"slug": "heart-halo-studs",
+"story": "A heart-shaped centre stone framed by a halo of small pavé-set stones.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-010-01-front.jpg",
+"type": "front",
+"alt": "The Heart Halo Studs, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
+},
+{
+"sku": "TRV-ER-011",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Marquise Studs – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Marquise Studs | Trovanni"
+},
+"slug": "marquise-studs",
+"story": "A marquise-shaped stone held in a sweeping half-bezel that wraps each end.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-011-01-front.jpg",
+"type": "front",
+"alt": "The Marquise Studs, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
+},
+{
+"sku": "TRV-ER-012",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Star Cluster Studs – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Star Cluster Studs | Trovanni"
+},
+"slug": "star-cluster-studs",
+"story": "Five round stones clustered around a centre stone to form a star; a playful everyday stud.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-012-01-front.jpg",
+"type": "front",
+"alt": "The Star Cluster Studs, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
+},
+{
+"sku": "TRV-ER-013",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Flora Pear – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Flora Pear | Trovanni"
+},
+"slug": "flora-pear-studs",
+"story": "From the Flora series: a pear-shaped stone in an open, organic frame dotted with small beads.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-013-01-front.jpg",
+"type": "front",
+"alt": "The Flora Pear, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
+},
+{
+"sku": "TRV-ER-014",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Flora Hoop – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Flora Hoop | Trovanni"
+},
+"slug": "flora-hoop-earrings",
+"story": "From the Flora series: a double hoop, one band polished and one lined with tiny pavé-set stones.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-014-01-front.jpg",
+"type": "front",
+"alt": "The Flora Hoop, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
+},
+{
+"sku": "TRV-ER-015",
+"schema_version": 5,
+"product_type": "configurable_earrings",
+"status": "draft",
+"item_category": "Earrings",
+"audience": "women",
+"title": {
+"website": "The Flora Matching Set – laboratory-grown diamond or moissanite, solid gold",
+"seo_title": "The Flora Matching Set | Trovanni"
+},
+"slug": "flora-matching-set",
+"story": "From the Flora series: a pendant necklace and matching studs, each stone set in the same beaded organic frame.",
+"condition": {
+"grade": "New",
+"notes": "New, made to order."
+},
+"metal_family": "yellow_gold",
+"metal": {
+"metal": "gold",
+"colour": "yellow",
+"fineness_ppt": 375,
+"carat_label": "9ct",
+"solid": true
+},
+"stones": null,
+"weight_g": null,
+"hallmark_status_public": "UK hallmarked",
+"price": {
+"gbp": null,
+"compare_at_gbp": null,
+"display": "Price on request"
+},
+"vat_treatment": "not_vat_registered",
+"photos": [
+{
+"src": "trv-er-015-01-front.jpg",
+"type": "front",
+"alt": "The Flora Matching Set, front view",
+"order": 1,
+"exists": true
+}
+],
+"shipping": {
+"method": "Royal Mail Special Delivery",
+"signed_insured": true,
+"dispatch_days": "Made to order; your delivery date is confirmed before you order"
+},
+"options_public": {
+"metal": [
+"9ct yellow gold",
+"9ct white gold",
+"9ct rose gold",
+"14ct yellow gold",
+"14ct white gold",
+"14ct rose gold",
+"18ct yellow gold",
+"18ct white gold",
+"18ct rose gold"
+],
+"stone_type": [
+"Laboratory-grown diamond",
+"Moissanite"
+]
+},
+"_site": {
+"category": "Earrings",
+"audience": "women",
+"engagement": false,
+"configurable": false,
+"price_on_request": true,
+"enquiry_only": true,
+"price_unapproved": false,
+"image_pending": false,
+"metal_group": "gold",
+"metal_family_label": "Yellow gold",
+"purchasable": false,
+"sample": false
+}
 }
 ];
 window.CATS=["Watches", "Chains", "Necklaces", "Pendants", "Bracelets", "Earrings", "Rings", "Brooches", "Cufflinks"];
