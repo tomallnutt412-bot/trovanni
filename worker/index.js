@@ -8,6 +8,7 @@ const SHIPPING = {
   next: { label: "Royal Mail Special Delivery, next working day", gbp: 15 },
 };
 const MAX_RING_QTY = 3;
+import { isPriceOnRequest } from "./guard.js";
 
 const json = (o, status = 200) =>
   new Response(JSON.stringify(o), { status, headers: { "content-type": "application/json", "cache-control": "no-store" } });
@@ -35,6 +36,7 @@ function excluded(c, o) {
 
 // Returns { name, unit_gbp, meta } or throws a user-safe Error.
 function priceLine(p, opts) {
+  if (isPriceOnRequest(p)) throw new Error(`${p.sku} is price on request: please enquire`);
   if (!p._site || !p._site.purchasable || p.status !== "live") throw new Error(`${p.sku} is not available`);
   if (p._site.price_unapproved) throw new Error(`${p.sku} is not yet on sale`);
   const title = p.title.website;
@@ -86,7 +88,7 @@ async function checkout(request, env) {
   const line_items = [], seen = new Set(), meta = {};
   try {
     items.forEach((it, i) => {
-      const p = products.find((x) => x.sku === String(it.id));
+      const p = products.find((x) => x.sku.toUpperCase() === String(it.id).trim().toUpperCase());
       if (!p) throw new Error("An item in your basket is no longer available.");
       const isRing = !!cfg(p);
       if (!isRing) { if (seen.has(p.sku)) throw new Error(`${p.sku} is one-of-one`); seen.add(p.sku); }

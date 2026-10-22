@@ -12,6 +12,10 @@ if(B!=="Trovanni"){document.title=document.title.replace(/Trovanni/g,B);document
 (function(){const i=(B.trim()[0]||"B").toUpperCase(),l=document.querySelector("link[rel=icon]");if(l&&B!=="Trovanni")l.href="data:image/svg+xml,"+encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#161411"/><text x="32" y="45" text-anchor="middle" font-family="Georgia,serif" font-size="40" fill="#f3eee4">${i}</text></svg>`);})();
 const gbp=p=>"£"+p.toLocaleString("en-GB");const fmt=p=>gbp(p);
 const KEY="bn_basket";
+// Price-on-request items (earrings, schema v6 site extension): shown for enquiry only, never purchasable, no price in the data.
+const POR=p=>!!(p&&p._site&&(p._site.price_on_request||p._site.enquiry_only||p.product_type=="configurable_earrings"));
+const canBuy=p=>!!(p&&p.buyable&&!POR(p)&&(CFG(p)||typeof p.price=="number"));
+const enquireHref=p=>"contact.html?enquiry="+encodeURIComponent(p.id);
 // ---- Ring configurator (schema v5 product_type configurable_ring). All prices come from the data; nothing priced in code. ----
 const CFG=p=>p&&p._site&&p._site.configurable?p.configurable:null;
 const O=p=>CFG(p).options;
@@ -41,9 +45,9 @@ document.addEventListener("click",e=>{if(!e.target.closest(".menupanel"))documen
 const st=document.querySelector(".searchtoggle");if(st)st.onclick=()=>{document.body.classList.toggle("searchopen");const i=document.querySelector(".search input");i&&i.focus();};
 const ft=document.querySelector(".filtertoggle");if(ft)ft.onclick=()=>{const o=document.body.classList.toggle("filters-open");ft.setAttribute("aria-expanded",o);ft.querySelector("span").textContent=o?"−":"+";};
 
-function card(p){return `<a class="card${p.sold?" is-sold":""}" href="product.html?id=${p.id}">${CFG(p)&&p.photos&&p.photos[0]&&p.photos[0].exists?`<div class="ph cimg"><img src="images/products/${esc0(p.photos[0].src.split("/").pop())}" alt="${esc0(p.photos[0].alt)}" loading="lazy"></div>`:`<div class="ph ph-${p.metal}"><span>Image placeholder</span></div>`}
-<div class="cinfo">${p._site.price_unapproved?UNAPPROVED:""}${p._site.image_pending?'<small class="imgpend">Image pending: final photo to follow</small>':""}${p.isSample?'<span class="sample">Sample listing</span>':""}${p.sold?'<span class="sold">Sold</span>':p.reserved?'<span class="sold res">Reserved</span>':""}<small>${p.category} · ${CFG(p)?"Made to order":p.metalFamilyLabel}${p.engagement?(CFG(p)?" · laboratory-grown diamond or moissanite":" · laboratory-grown diamond"):""}</small><h3>${p.name}</h3><b>${CFG(p)?"From "+gbp(cfgFrom(p)):fmt(p.price)}</b></div></a>`;}
-window.addToBasket=(id,opts)=>{const pp=byId(id);if(!pp||!pp.buyable)return;const msg=document.querySelector(".addmsg");if(CFG(pp)){opts=opts||cfgDef(pp);if(O(pp).ring_size_uk&&!opts.size)return void(msg&&(msg.textContent="Please choose your ring size."));if(!cfgOk(pp,opts))return void(msg&&(msg.textContent="That combination isn't available. Please choose another."));opts={metal:opts.metal,carat:+opts.carat,stone:opts.stone,size:opts.size};}else opts=undefined;
+function card(p){return `<a class="card${p.sold?" is-sold":""}${POR(p)?" por":""}" href="product.html?id=${p.id}">${(CFG(p)||POR(p))&&p.photos&&p.photos[0]&&p.photos[0].exists?`<div class="ph cimg"><img src="images/products/${esc0(p.photos[0].src.split("/").pop())}" alt="${esc0(p.photos[0].alt)}" loading="lazy"></div>`:`<div class="ph ph-${p.metal}"><span>Image placeholder</span></div>`}
+<div class="cinfo">${p._site.price_unapproved?UNAPPROVED:""}${p._site.image_pending?'<small class="imgpend">Image pending: final photo to follow</small>':""}${p.isSample?'<span class="sample">Sample listing</span>':""}${p.sold?'<span class="sold">Sold</span>':p.reserved?'<span class="sold res">Reserved</span>':""}<small>${p.category} · ${CFG(p)||POR(p)?"Made to order":p.metalFamilyLabel}${p.engagement?(CFG(p)?" · laboratory-grown diamond or moissanite":" · laboratory-grown diamond"):""}</small><h3>${POR(p)?esc0(p.name.split(" – ")[0]):p.name}</h3><b>${POR(p)?'<span class="por-label">Price on request</span>':CFG(p)?"From "+gbp(cfgFrom(p)):fmt(p.price)}</b></div></a>`;}
+window.addToBasket=(id,opts)=>{const pp=byId(id);if(!canBuy(pp)){const m=document.querySelector(".addmsg");if(m&&POR(pp))m.textContent="This piece is price on request. Please enquire.";return;}const msg=document.querySelector(".addmsg");if(CFG(pp)){opts=opts||cfgDef(pp);if(O(pp).ring_size_uk&&!opts.size)return void(msg&&(msg.textContent="Please choose your ring size."));if(!cfgOk(pp,opts))return void(msg&&(msg.textContent="That combination isn't available. Please choose another."));opts={metal:opts.metal,carat:+opts.carat,stone:opts.stone,size:opts.size};}else opts=undefined;
  const b=get(),k=lineKey({id,opts});const f=b.find(x=>lineKey(x)==k);if(f&&!pp.engagement)return void(msg&&(msg.textContent="Already in your basket: this is a one-of-one piece."));f?f.q++:b.push(opts?{id,q:1,opts}:{id,q:1});set(b);if(msg)msg.textContent="Added to your basket ✓"+(opts?" ("+cfgText(pp,opts)+")":"");};
 document.querySelectorAll("[data-grid]").forEach(g=>{
  const k=g.dataset.grid;let l=PRODUCTS;
@@ -51,6 +55,7 @@ document.querySelectorAll("[data-grid]").forEach(g=>{
  if(k=="men")l=PRODUCTS.filter(p=>p.gender!="women");
  if(k=="women")l=PRODUCTS.filter(p=>p.gender!="men");
  if(k=="engagement")l=PRODUCTS.filter(p=>p.engagement);
+ if(k=="earrings")l=PRODUCTS.filter(p=>p.category=="Earrings");
  g.innerHTML=l.map(card).join("");});
 const sg=document.getElementById("shopgrid");
 if(sg){const q=new URLSearchParams(location.search);
@@ -74,7 +79,7 @@ const OR={natural:"Natural",laboratory_grown:"Laboratory-grown",simulant:"Simula
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const row=(k,v)=>v===undefined||v===null||v===""?"":`<tr><th>${k}</th><td>${v}</td></tr>`;
 const pid=new URLSearchParams(location.search).get("id");if(pd&&!byId(pid)){pd.innerHTML='<div><h1>Item not found</h1><p>This piece isn\'t available. It may have sold. <a href="shop.html">Browse the shop</a>.</p></div>';}
-else if(pd){const p=byId(pid);
+else if(pd&&!POR(byId(pid))){const p=byId(pid);
  const mm=p.measurements_mm?Object.entries(p.measurements_mm).map(([k,v])=>`${k.replace(/_/g," ")}: ${v} mm`).join(", "):"";
  const h=p.hallmark||{};const hl=[h.sponsor_mark&&"Sponsor's mark "+esc(h.sponsor_mark),h.fineness_mark&&"Fineness "+esc(h.fineness_mark),h.assay_office&&esc(h.assay_office)+" assay office",h.date_letter&&"Date letter "+esc(h.date_letter)+(h.date_letter_year?" ("+h.date_letter_year+")":""),h.convention_mark&&"Convention mark",...(h.other_marks||[]).map(esc)].filter(Boolean).join(" · ");
  const precious=["gold","silver","platinum","palladium"].includes(p.metalSrc);
@@ -105,6 +110,14 @@ else if(pd){const p=byId(pid);
  ${precious?'<div class="dn"><b>Hallmarking.</b> We display the official Dealer\'s Notice explaining UK hallmarks. <a href="dealers-notice.html">View the Dealer\'s Notice</a>.</div>':""}
  ${p.isSample?'<p class="note">Sample listing: all details are fictional.</p>':""}</div>`;}
 if(pd&&byId(pid)&&CFG(byId(pid)))cfgWire(byId(pid));
+if(pd&&byId(pid)&&POR(byId(pid))){const p=byId(pid),ph=(p.photos||[])[0];const short=p.name.split(" – ")[0];
+ pd.innerHTML=`<div class="gallery">${ph&&ph.exists?`<img class="big" src="images/products/${esc0(ph.src.split("/").pop())}" alt="${esc0(ph.alt)}">`:'<div class="ph big"><span>Photo</span></div>'}<p class="note">Image shows the design; each pair is made to order.</p></div>
+ <div class="pinfo por"><small>${esc0(p.category)} · Made to order</small><h1>${esc0(short)}</h1><p class="price por-price">Price on request</p>
+ ${p.story?`<p>${esc0(p.story)}</p>`:""}
+ <div class="lgbox"><b>Made to order</b><table>${row("Metal and stone","Metal and stone details on request")}${row("Sizes","Measurements and your delivery date are confirmed with you before your order goes into production")}${row("Returns","14-day returns")}</table></div>
+ <a class="btn enquire" href="${enquireHref(p)}">Enquire</a> <a class="btn alt" href="earrings.html">All earrings</a><p class="note">Not available to buy online yet: enquire for a price and metal and stone details.</p>
+ <div class="returns"><b>14-day returns.</b> <a href="shipping.html#returns">Full returns policy</a>.</div></div>`;}
+const enq=document.getElementById("enquiry");if(enq){const e=new URLSearchParams(location.search).get("enquiry"),ep=e&&byId(e);if(ep)enq.innerHTML=`<p class="lgbox">You're enquiring about <b>${esc0(ep.name.split(" – ")[0])}</b> (ref ${esc0(ep.id)}). Send us a message with the reference and we'll come back to you with a price.</p>`;}
 function cfgForm(p){const o=O(p),d=cfgDef(p);const rad=(n,v,l,ck)=>`<label class="opt"><input type=radio name="${n}" value="${esc0(v)}" ${ck?"checked":""}> <span>${esc0(l)}</span></label>`;
  return `<form class="cfg" id="cfg" onsubmit="return false"><p class="price" id="cfgprice" aria-live="polite"></p><p class="note">From ${gbp(cfgFrom(p))} · price updates as you choose</p>
  <fieldset><legend>Metal</legend>${o.metal.filter(m=>m.available!==false).map(m=>rad("metal",m.code,m.label,m.code==d.metal)).join("")}</fieldset>
@@ -126,7 +139,7 @@ function cfgWire(p){const f=document.getElementById("cfg");document.body.classLi
   document.getElementById("cfglead").textContent=cfgLead(p,o);const h=findM(p,o.metal).hallmark||{};document.getElementById("cfghall").textContent=HR[h.requirement]||"";};
  f.addEventListener("change",upd);upd();}
 const bk=document.getElementById("basket");
-function rb(){let b=get();const nb=b.filter(x=>{const p=byId(x.id);return p&&p.buyable&&(!CFG(p)||cfgOk(p,x.opts))});if(nb.length!=b.length){set(nb);b=nb;}if(!b.length){bk.innerHTML="<p>Your basket is empty. <a href='shop.html'>Browse the shop</a>.</p>";return;}
+function rb(){let b=get();const nb=b.filter(x=>{const p=byId(x.id);return canBuy(p)&&(!CFG(p)||cfgOk(p,x.opts))});if(nb.length!=b.length){set(nb);b=nb;}if(!b.length){bk.innerHTML="<p>Your basket is empty. <a href='shop.html'>Browse the shop</a>.</p>";return;}
  let tot=0;bk.innerHTML="<table class=btable>"+b.map(x=>{const p=byId(x.id);if(!p)return"";const lp=linePrice(x);tot+=lp*x.q;const k=esc0(lineKey(x));
  return `<tr><td>${lineName(x)}</td><td><input type=number min=1 value=${x.q} data-key="${k}" class=qty aria-label="Quantity"></td><td>${(byId(x.id)&&CFG(byId(x.id))?gbp:fmt)(lp*x.q)}</td><td><button data-rm="${k}">Remove</button></td></tr>`}).join("")+
  `</table><p class=total>Subtotal: ${fmt(tot)}</p><p class=note>Shipping chosen at checkout.</p><a class="btn" href="checkout.html">Go to checkout</a>`;
@@ -134,7 +147,7 @@ function rb(){let b=get();const nb=b.filter(x=>{const p=byId(x.id);return p&&p.b
  bk.querySelectorAll("[data-rm]").forEach(r=>r.onclick=()=>{set(get().filter(x=>lineKey(x)!=r.dataset.rm));rb();});}
 if(bk)rb();
 const co=document.getElementById("checkout");
-if(co){const PAY=SITE.payments,b=get();let sub=0;b.forEach(x=>{sub+=linePrice(x)*x.q});
+if(co){const PAY=SITE.payments,b=get().filter(x=>canBuy(byId(x.id)));if(b.length!=get().length)set(b);let sub=0;b.forEach(x=>{sub+=linePrice(x)*x.q});
  document.getElementById("shipopts").innerHTML=SITE.shipping.map((s,i)=>`<label class=opt><input type=radio name=ship value="${s.id}" ${i?"":"checked"}> ${s.label} <b>${s.price?gbp(s.price):"Free"}</b></label>`).join("");
  const lines=document.getElementById("colines");
  function upd(){const s=SITE.shipping.find(x=>x.id==co.ship.value);lines.innerHTML=b.map(x=>{return byId(x.id)?`<div class=row><span>${lineName(x)} × ${x.q}</span><span>${gbp(linePrice(x)*x.q)}</span></div>`:""}).join("")+`<div class=row><span>Shipping</span><span>${s.price?gbp(s.price):"Free"}</span></div><div class="row total"><span>Total</span><span>${gbp(sub+s.price)}</span></div>`;return sub+s.price;}
