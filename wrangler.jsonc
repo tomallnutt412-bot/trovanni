@@ -6,7 +6,8 @@
   "name": "trovanni",
   "main": "worker/index.js",
   "compatibility_date": "2026-04-01",
-  "assets": { "directory": ".", "binding": "ASSETS" },
+  "assets": { "directory": ".", "binding": "ASSETS", "run_worker_first": true },
   "previews": {},
-  "vars": { "ALLOW_LIVE": "true" }
+  // Site closed 2026-10-31 (Tom). To reopen: SITE_CLOSED "false", ALLOW_LIVE "true", remove run_worker_first.
+  "vars": { "ALLOW_LIVE": "false", "SITE_CLOSED": "true" }
 }

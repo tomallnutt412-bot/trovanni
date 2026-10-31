@@ -128,9 +128,15 @@ async function checkout(request, env) {
   return json({ url: s.url });
 }
 
+const HOLDING = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Trovanni is closed for now</title><style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;background:#faf8f5;color:#222;text-align:center;padding:2rem}h1{font-weight:normal}</style></head><body><main><h1>Trovanni is closed for now</h1><p>We are not taking orders at the moment. Thank you for visiting.</p></main></body></html>`;
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (env.SITE_CLOSED === "true") {
+      if (url.pathname.startsWith("/api/")) return json({ error: "Trovanni is closed for now. Checkout is disabled." }, 503);
+      return new Response(HOLDING, { status: 503, headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-store", "x-robots-tag": "noindex, nofollow", "retry-after": "86400" } });
+    }
     if (url.pathname === "/api/checkout") {
       if (request.method !== "POST") return json({ error: "Method not allowed" }, 405);
       return checkout(request, env);
